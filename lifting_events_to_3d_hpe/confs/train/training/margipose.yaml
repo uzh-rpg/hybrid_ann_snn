@@ -1,0 +1,12 @@
+
+# @package _group_
+module: MargiposeEstimator
+model: resnet34
+backbone: cross_subject/timecount/classification/resnet34.pt
+stages: 3
+predict_3d: true
+pretrained: false
+test_metrics: ['AUC', 'PCK', 'MPJPE', 'MPJPE2D']
+estimate_depth: false
+use_lr_scheduler: true
+

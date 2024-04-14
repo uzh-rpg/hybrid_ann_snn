@@ -1,0 +1,4 @@
+loss:
+  class: experimenting.models.losses.HeatmapLoss
+  params:
+    reduction: mask_mean

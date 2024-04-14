@@ -1,0 +1,8 @@
+# @package _group_
+type: SGD
+params:
+  lr: 0.01
+  momentum: 0.9
+  nesterov: true
+    
+

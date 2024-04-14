@@ -1,0 +1,33 @@
+augmentation_train:
+  type: center_crop_voxel_normalize
+  apply:
+    aug1:
+      class: albumentations.CenterCrop
+      params:
+        height: 224
+        width: 224
+        p: 1.0
+    aug2:
+      class: albumentations.Normalize
+      params:
+        mean: [6.0739e-05, 1.0705e-04, 1.0672e-04, 6.2473e-05]
+        std: [6.0739e-05, 1.0705e-04, 1.0672e-04, 6.2473e-05]
+    aug3:
+      class: albumentations.pytorch.ToTensor
+
+augmentation_test:
+  type: center_crop_voxel_normalize
+  apply:
+    aug1:
+      class: albumentations.CenterCrop
+      params:
+        height: 224
+        width: 224
+        p: 1.0
+    aug2:
+      class: albumentations.Normalize
+      params:
+        mean: [6.0739e-05, 1.0705e-04, 1.0672e-04, 6.2473e-05]
+        std: [6.0739e-05, 1.0705e-04, 1.0672e-04, 6.2473e-05]
+    aug3:
+      class: albumentations.pytorch.ToTensor

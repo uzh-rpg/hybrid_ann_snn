@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<renders>
+   <filenames>
+      <item>MR1</item>
+      <item>MR2</item>
+      <item>MR3</item>
+      <item>MR4</item>
+      <item>MR5</item>
+      <item>MR6</item>
+      <item>MR7</item>
+   </filenames>
+   <actions>[int32([7;13;12;10;14;14;6])]</actions>
+   <num_frames>[805 805 518 921 1273 1484 1660]</num_frames>
+</renders>

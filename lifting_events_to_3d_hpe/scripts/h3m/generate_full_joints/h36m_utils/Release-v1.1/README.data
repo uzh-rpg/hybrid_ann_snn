@@ -1,0 +1,10 @@
+This document contains a description of the data and how to download and 
+install it.
+
+The setup for our experiments requires that all the archives are extracted 
+in the same directory (we call this the experiment directory). The archives 
+contain local paths and these are important for a correct setup.
+
+metadata.xml and metadata_renders.xml must be copied in that directory as well. These
+file accompany this distribution and the copy is done automatically with the setup. The files
+contains information about the database file names, number of frames, camera parameters, etc.

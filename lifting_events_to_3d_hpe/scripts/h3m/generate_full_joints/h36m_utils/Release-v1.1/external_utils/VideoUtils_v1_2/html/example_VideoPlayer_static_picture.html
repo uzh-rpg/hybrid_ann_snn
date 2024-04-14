@@ -1,0 +1,159 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>VideoPlayer Example using an static picture</title><meta name="generator" content="MATLAB 7.13"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2012-04-28"><meta name="DC.source" content="example_VideoPlayer_static_picture.m"><style type="text/css">
+
+body {
+  background-color: white;
+  margin:10px;
+}
+
+h1 {
+  color: #990000; 
+  font-size: x-large;
+}
+
+h2 {
+  color: #990000;
+  font-size: medium;
+}
+
+/* Make the text shrink to fit narrow windows, but not stretch too far in 
+wide windows. */ 
+p,h1,h2,div.content div {
+  max-width: 600px;
+  /* Hack for IE6 */
+  width: auto !important; width: 600px;
+}
+
+pre.codeinput {
+  background: #EEEEEE;
+  padding: 10px;
+}
+@media print {
+  pre.codeinput {word-wrap:break-word; width:100%;}
+} 
+
+span.keyword {color: #0000FF}
+span.comment {color: #228B22}
+span.string {color: #A020F0}
+span.untermstring {color: #B20000}
+span.syscmd {color: #B28C00}
+
+pre.codeoutput {
+  color: #666666;
+  padding: 10px;
+}
+
+pre.error {
+  color: red;
+}
+
+p.footer {
+  text-align: right;
+  font-size: xx-small;
+  font-weight: lighter;
+  font-style: italic;
+  color: gray;
+}
+
+  </style></head><body><div class="content"><h1>VideoPlayer Example using an static picture</h1><!--introduction--><p>The <b>VideoPlayer</b> object is capable of creating an online video using an static picture</p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Create the VideoPlayer object</a></li><li><a href="#2">Reproduce the synthetic video</a></li><li><a href="#3">Release the VideoPlayer object</a></li></ul></div><h2>Create the VideoPlayer object<a name="1"></a></h2><p>In order to create a <b>VideoPlayer</b> object using an static picture we have to define the <b>VideoPlayer</b> object using the optional parameter 'UseStaticPicture', where we have define a projective transform, which will be applied to the image for each frame. See next source code:</p><pre class="codeinput">pictureName = <span class="string">'peppers.png'</span>; <span class="comment">% Static picture</span>
+
+transX = 10; <span class="comment">% X Translation</span>
+transY = 5;  <span class="comment">% Y Translation</span>
+
+rotX = 0;    <span class="comment">% Rotation in the X axis (in degrees)</span>
+rotY = 0;    <span class="comment">% Rotation in the Y axis (in degrees)</span>
+rotZ = 10;   <span class="comment">% Rotation in the Z axis (in degrees)</span>
+
+scale = 1.08; <span class="comment">% Scale factor</span>
+
+imageSize = [320, 240]; <span class="comment">% Cutted region of the static picture</span>
+
+numberFrames = 10;      <span class="comment">% Number of frames of the synthetic video.</span>
+
+vp = VideoPlayer(pictureName, <span class="keyword">...</span>
+    <span class="string">'UseStaticPicture'</span>, [transX transY rotX rotY rotZ scale], <span class="keyword">...</span>
+    <span class="string">'ValidRectangle'</span>, imageSize, <span class="string">'MaxFrames'</span>, numberFrames);
+</pre><h2>Reproduce the synthetic video<a name="2"></a></h2><p>In order to reproduce the synthetic video you have to create the loop like in the example_VideoPlayer.m.</p><pre class="codeinput"><span class="keyword">while</span>(true)
+    plot(vp);
+
+    disp( mat2str(vp.Tgp) );
+
+    drawnow;
+
+    <span class="keyword">if</span> (~vp.nextFrame)
+        <span class="keyword">break</span>;
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+</pre><pre class="codeoutput">[1 0 0;0 1 0;0 0 1]
+[1.06359237325318 0.187540031880285 0;-0.187540031880285 1.06359237325318 0;10 5 1]
+[1.09605747288468 0.39893229517506 0;-0.39893229517506 1.09605747288468 0;20 10 1]
+[1.0909425934521 0.629856 0;-0.629856 1.0909425934521 0;30 15 1]
+[1.04219500773272 0.874505446603326 0;-0.874505446603326 1.04219500773272 0;40 20 1]
+[0.944465882331592 1.12557060835134 0;-1.12557060835134 0.944465882331592 0;50 25 1]
+[0.793437161472 1.37427347628274 0;-1.37427347628274 0.793437161472 0;60 30 1]
+[0.586162422042981 1.61046801869592 0;-1.61046801869592 0.586162422042981 0;70 35 1]
+[0.321410658004117 1.82281042137011 0;-1.82281042137011 0.321410658004117 0;80 40 1]
+[1.2240373090321e-16 1.99900462710443 0;-1.99900462710443 1.2240373090321e-16 0;90 45 1]
+</pre><img vspace="5" hspace="5" src="example_VideoPlayer_static_picture_01.png" alt=""> <h2>Release the VideoPlayer object<a name="3"></a></h2><p>Finally you have to release the object.</p><pre class="codeinput">clear <span class="string">vp</span>;
+</pre><p class="footer"><br>
+      Published with MATLAB&reg; 7.13<br></p></div><!--
+##### SOURCE BEGIN #####
+%% VideoPlayer Example using an static picture
+% The *VideoPlayer* object is capable of creating an online video using an
+% static picture
+
+%% Create the VideoPlayer object
+% In order to create a *VideoPlayer* object using an static picture we have 
+% to define the *VideoPlayer* object using the optional parameter 
+% 'UseStaticPicture', where we have define a projective transform, which 
+% will be applied to the image for each frame. See next source code:
+
+pictureName = 'peppers.png'; % Static picture
+
+transX = 10; % X Translation
+transY = 5;  % Y Translation
+
+rotX = 0;    % Rotation in the X axis (in degrees)
+rotY = 0;    % Rotation in the Y axis (in degrees)
+rotZ = 10;   % Rotation in the Z axis (in degrees)
+    
+scale = 1.08; % Scale factor
+
+imageSize = [320, 240]; % Cutted region of the static picture
+
+numberFrames = 10;      % Number of frames of the synthetic video.
+
+vp = VideoPlayer(pictureName, ...
+    'UseStaticPicture', [transX transY rotX rotY rotZ scale], ...
+    'ValidRectangle', imageSize, 'MaxFrames', numberFrames);
+
+%% Reproduce the synthetic video
+% In order to reproduce the synthetic video you have to create the loop
+% like in the example_VideoPlayer.m.
+
+while(true)   
+    plot(vp); 
+    
+    disp( mat2str(vp.Tgp) );
+    
+    drawnow;
+    
+    if (~vp.nextFrame)
+        break;
+    end
+end
+
+
+%% Release the VideoPlayer object
+% Finally you have to release the object.
+
+clear vp;
+##### SOURCE END #####
+--></body></html>

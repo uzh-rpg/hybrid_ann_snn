@@ -1,0 +1,23 @@
+===========================================================================
+Matlab VideoUtils 1.2.0 
+
+$Date: 2012-04-28 13:49:18 +0200 (Sat, 28 Apr 2012) $, $Revision: 17 $
+===========================================================================
+
++ Added MultibandBlending class to stitch images.
++ Added an example of MultibandBlending.
++ addFrameToFrame function now can use multiband blending.
++ Now the resourcer are in the folder resources.
+
+===========================================================================
+Matlab VideoUtils 1.1.0 
+
+Date: 2012-04-20 11:31:29 +0200 (Fri, 20 Apr 2012) , Revision: 9 
+===========================================================================
+
++ Added the C++ source code.
++ Added the icons and script.
++ Added help for the addFrameToFrame method, and now this function returns the percentage of overlapped pixels.
++ Added ShowTime parameter help into the VideoPlayer class. 
++ Corrected a bug while reaching the last frame in ISV videos.
++ Modified the windows binaries names in order to solve the error -> "Cannot find an exact (case-sensitive) match for 'mexVideoReader'."

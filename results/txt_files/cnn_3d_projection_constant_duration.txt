@@ -1,0 +1,7 @@
+val_running_mpjpe_avg10_cam3:5.836708002680348
+val_running_mpjpe_avg10_cam2:5.277906254873696
+val_running_mpjpe_cam3:5.836708002680348
+val_running_mpjpe_cam2:5.277906254873696
+val_mpjpe_list_cam3:[5.836708]
+val_mpjpe_list_cam2:[5.27790625]
+mpjpe_3d_list:[70.11566967]

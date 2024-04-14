@@ -1,0 +1,1 @@
+!mex -f ./newmexopts.sh  -O chi2_mex.c

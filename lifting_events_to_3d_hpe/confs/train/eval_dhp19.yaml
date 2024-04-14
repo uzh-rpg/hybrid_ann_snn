@@ -1,0 +1,13 @@
+defaults:
+  - dataset: constantcount_dhp19
+  - augmentation: no_aug
+  - training: margipose
+ 
+gpus: 
+root_dir: /home/gianlucascarpellini/dev
+model_zoo: /longtermdatasets/asude/lifting_events_to_3d_hpe/model_zoo
+load_path: /longtermdatasets/asude/lifting_events_to_3d_hpe/model_zoo/dhp19
+result_file: aucs.json 
+num_workers: 12
+
+batch_size: 256

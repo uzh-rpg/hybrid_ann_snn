@@ -1,0 +1,83 @@
+This file accompanies the release of H36M dataset code version 1.1
+
+1) Description of code files
+The following directories are found in this release
+- H36MDemo : examples of the functionality
+- H36M : the framework allowing for basic data manipulation
+- H36MBL : code for the baselines (features and predictors)
+- H36MGUI : code for visualizing the data
+- utils : basic utility code that, in principle, should not be called directly
+- external_utils : code from other libraries we use to provide some of our functionality. 
+
+2) Installation
+In order to be used, the code needs to locate the data. Setting up the data
+path can be done by using a file called H36M.conf which is generated
+automatically whenever the H36MDataBase object is first instantiated. If Java
+is available in Matlab, then this information can be fed to a GUI input widget,
+otherwise a text based interface will be used. As a result, an H36M.conf file
+will be generated in the current directory. Two separate files, metadata.xml
+and metadata_renders.xml, that contain information about the data including
+camera parameters, file names, etc are provided as well. These files should be
+copied to the data directory (i.e., the previously specified directory). In
+order for H36MDataBase object to be instantiated successfully, these .xml files
+are required, otherwise an error will be shown. This is practically all the
+installation required in order to make the code work.
+
+3) Dependencies
+This code relies on the following toolboxes:
+MOCAP0p136 and NDLUTIL0p161 - http://staffwww.dcs.shef.ac.uk/people/N.Lawrence/mocap/ (Neil Lawrence's mocap toolbox - required for visualizing poses)
+minFunc - http://www.di.ens.fr/~mschmidt/Software/minFunc.html (Mark Schmidt's great optimization package - required by our KDE inference)
+
+VideoUtils_v1_2 - Marc Vivet's toolbox for video manipulation (provided - works sometimes better in windows than Matlab's default).
+xml_io_tools - Jaroslaw Tuszynski's toolbox for xml serialization (provided - required for loading the xml metadata)
+loadawobj2010 - http://www.mathworks.com/matlabcentral/fileexchange/10223 (provided - required for loading the mesh)
+mpi-chi2-v1_5 - Fuxin Li's parallel chi2 (provided)
+randfeat - slightly modified version of our randfeat library (provided)
+Joao Carreira's code for pHoG feature extraction. (provided)
+
+Some toolboxes are provided with the distribution, some other, however, cannot
+be distributed in this package due to licensing issues. Please place the
+contents of these packages in the "external_utils" directory.
+
+4) Visualizer
+Please run the visualizer from the H36MDemo directory by calling "runGUI". This 
+ensures that the paths are correct and the right libraries are added.
+
+Caveats : 
+1) Sometimes in linux there seem to appear problems when using the play video
+functionality. That is just a software issue related to the underlying
+gstreamer framework rather than a problem with the data. To verify this you can
+use the slider to check that the different data modalities are indeed synchronized.
+2) Background subtraction masks are not handled very efficiently in the current
+implementation of the viewer. We aim to fix this in a future release.
+3) For the latest versions of Matlab (i.e., after 2011) some problems arise in
+the GUI where the checkbox for mirror symmetric data is not displayed at the
+right location. We have made a workaround by creating H36MViewGUI_2012
+instantiated in this case but this doesn't seem to always work either. If you
+run into this problem please use `guide H36MViewGUI_2012` to position it yourself.
+
+5) Baselines code
+A small example of how to run a baseline is found in H36MDemo by running "demo_regressors".
+
+6) Uploading results files
+The function H36MSubmit generates a results file that can be uploaded to our evaluation server.
+
+7) Frequently asked questions
+-- Q: What data files are required ?
+-- A: This depends on what you need! In principle, for Matlab users, for obtaining pose data in any of the parametrizations available only the RawAngles poses are required.
+The code then generates all the rest of the pose formats. 
+Our code for generating the different pose formats requires the Matlab's 
+3D Animation toolbox. If that is not available please download
+the precomputed files from our server.
+
+-- Q: What are the different pose formats and how can I visualize them ?
+-- A: An example on how to obtain the different pose formats can be found in H36MDemo/demo_targets.m It shows both how to obtain the poses in all available formats (3D joint positions, 3D joint angles, 2D joint positions -- also the mirror symmetric versions of most of these) as well as 
+how to obtain projections that align with the images and/or masks. Please have a look at that example.
+
+-- Q: How can I align the poses with the TOF data ?
+-- A: This is a very frequent question but unfortunately the functionality is not supported out-of-the-box at the moment. What we can say is that approximate 
+parameters for the orientation of the camera can be obtained from the ones for the RGB camera that was placed underneath. To obtain these parameters you can
+use the following code :
+>> db = H36MDataBase.instance(); % initialize metadata object
+>> cam = getCamera(db, s, 2); % obtain H36MCamera object for camera 2 subject s
+From this object you can recover the rotation and translation parameters (R and T). The rest of the alignment you will have to do yourself. 

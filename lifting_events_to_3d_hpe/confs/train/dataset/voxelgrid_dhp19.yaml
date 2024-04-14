@@ -1,0 +1,19 @@
+# @package _group_
+cls: experimenting.dataset.core.DHP19Core
+params:
+  name: dhp19_voxelgrid
+  base_path: /data/gscarpellini/dhp19/voxel_grid_dataset
+  data_dir: ${dataset.params.base_path}/movements_per_frame
+  joints_dir: ${dataset.params.base_path}/labels_full_joints
+  
+  
+  n_classes: 33
+  test_subjects: [1, 2, 3, 4, 5]
+  
+  cams: [0,1,2,3]
+  test_cams: [1, 2]
+  n_channels: 4
+  n_joints: 13
+  partition: cross-subject
+  torso_length: 453.5242317
+  movements: 

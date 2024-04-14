@@ -1,0 +1,19 @@
+exp_dir: exps_${training.module}/${dataset.params.partition}
+exp_name: ${now:%m-%d-%H-%M}_exp_${training.model}_pretrained_${training.pretrained}
+
+hydra:
+  output_subdir: reproduce
+  job:
+    config:
+      # configuration for the ${hydra.job.override_dirname} runtime variable
+      override_dirname:
+        kv_sep: '_'
+        item_sep: '__'
+        exclude_keys: []
+  sweep:
+    dir: ${root_dir}/exps/${dataset.params.name}/${exp_dir}
+    subdir: ${exp_name}
+    
+  run:
+    dir: ${hydra.sweep.dir}/${hydra.sweep.subdir}
+      

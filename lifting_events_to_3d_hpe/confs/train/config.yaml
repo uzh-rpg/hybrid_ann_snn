@@ -1,0 +1,26 @@
+defaults:
+  - optimizer: adam
+  - lr_scheduler: step_lr
+  - dataset: constantcount_h3m
+  - loss: multipixelwise
+  - augmentation: no_aug
+  - training: margipose
+  - hydra: standard
+  - hydra/help: help
+
+gpus: [0]
+epochs: 100
+early_stopping: 10
+batch_size: 32
+num_workers: 16
+train_val_split: 0.8
+
+debug: false
+root_dir: /data/gscarpellini/exps
+model_zoo: /data/gscarpellini/model_zoo
+project_name: event_hpe
+resume: false
+result_file: results.json 
+load_path:
+accelerator: ddp
+

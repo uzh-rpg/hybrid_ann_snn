@@ -1,0 +1,2 @@
+val_running_mpjpe:5.030824909140278
+val_running_loss:0.00018962350503986194

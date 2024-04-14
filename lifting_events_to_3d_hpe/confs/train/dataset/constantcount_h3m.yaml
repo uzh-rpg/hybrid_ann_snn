@@ -1,0 +1,13 @@
+# @package _group_
+cls: experimenting.dataset.core.HumanCore
+params:
+  name: h3m_constantcount
+  data_dir: /longtermdatasets/asude/lifting_dataset/ConstantCount
+  joints_path: ${dataset.params.data_dir}/3d_joints.npz
+  n_channels: 1
+  partition: cross-subject
+  movs:
+  test_cams: [0,1,2,3]
+  test_subjects: [9, 11]
+      
+      

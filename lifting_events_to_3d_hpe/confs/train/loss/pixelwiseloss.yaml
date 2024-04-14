@@ -1,0 +1,4 @@
+loss:
+  class: experimenting.models.losses.PixelWiseLoss
+  params:
+    reduction: mask_mean

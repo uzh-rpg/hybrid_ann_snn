@@ -1,0 +1,137 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>Simple VideoRecorder Example</title><meta name="generator" content="MATLAB 7.13"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2012-04-28"><meta name="DC.source" content="example_VideoRecorder.m"><style type="text/css">
+
+body {
+  background-color: white;
+  margin:10px;
+}
+
+h1 {
+  color: #990000; 
+  font-size: x-large;
+}
+
+h2 {
+  color: #990000;
+  font-size: medium;
+}
+
+/* Make the text shrink to fit narrow windows, but not stretch too far in 
+wide windows. */ 
+p,h1,h2,div.content div {
+  max-width: 600px;
+  /* Hack for IE6 */
+  width: auto !important; width: 600px;
+}
+
+pre.codeinput {
+  background: #EEEEEE;
+  padding: 10px;
+}
+@media print {
+  pre.codeinput {word-wrap:break-word; width:100%;}
+} 
+
+span.keyword {color: #0000FF}
+span.comment {color: #228B22}
+span.string {color: #A020F0}
+span.untermstring {color: #B20000}
+span.syscmd {color: #B28C00}
+
+pre.codeoutput {
+  color: #666666;
+  padding: 10px;
+}
+
+pre.error {
+  color: red;
+}
+
+p.footer {
+  text-align: right;
+  font-size: xx-small;
+  font-weight: lighter;
+  font-style: italic;
+  color: gray;
+}
+
+  </style></head><body><div class="content"><h1>Simple VideoRecorder Example</h1><!--introduction--><p>In here you can see and example of how to use the <b>VideoRecorder</b> object.</p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Create a new VideoRecorder Object</a></li><li><a href="#2">Insert frames to the VideoRecorder Object</a></li><li><a href="#3">Close the VideoRecorder Object</a></li><li><a href="#4">See the Recorded Video</a></li></ul></div><h2>Create a new VideoRecorder Object<a name="1"></a></h2><p>First of all we have to define the video name and the format of this new video, in this example the video name is set to <b>NewVideo</b> and the format to <b>mov</b>.</p><pre class="codeinput">vr = VideoRecorder(<span class="string">'NewVideo'</span>, <span class="string">'Format'</span>, <span class="string">'mov'</span>);
+</pre><h2>Insert frames to the VideoRecorder Object<a name="2"></a></h2><p>After we have created the <b>VideoRecorder</b> object, we are ready to insert frames to this object.</p><pre class="codeinput">vp = VideoPlayer(<span class="string">'./Resources/TestVideo.mp4'</span>);
+
+<span class="keyword">for</span> i = 1:10
+    vr.addFrame(vp.Frame);
+
+    vp + 1;
+<span class="keyword">end</span>
+
+clear <span class="string">vp</span>;
+</pre><h2>Close the VideoRecorder Object<a name="3"></a></h2><p>Finally we have to close the video sequence by releasing the <b>VideoRecorder</b> object.</p><pre class="codeinput">clear <span class="string">vr</span>;
+</pre><h2>See the Recorded Video<a name="4"></a></h2><p>Finally with this script you can see the recorded video.</p><pre class="codeinput">vp = VideoPlayer(<span class="string">'NewVideo.mov'</span>);
+
+<span class="keyword">while</span> (true)
+    plot(vp);
+    drawnow;
+
+    <span class="keyword">if</span> (~vp.nextFrame)
+       <span class="keyword">break</span>;
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+
+clear <span class="string">vp</span>;
+</pre><img vspace="5" hspace="5" src="example_VideoRecorder_01.png" alt=""> <p class="footer"><br>
+      Published with MATLAB&reg; 7.13<br></p></div><!--
+##### SOURCE BEGIN #####
+%% Simple VideoRecorder Example
+% In here you can see and example of how to use the *VideoRecorder* object.
+
+%% Create a new VideoRecorder Object
+% First of all we have to define the video name and the format of this new
+% video, in this example the video name is set to *NewVideo* and the format
+% to *mov*.
+
+vr = VideoRecorder('NewVideo', 'Format', 'mov');
+
+%% Insert frames to the VideoRecorder Object
+% After we have created the *VideoRecorder* object, we are ready to insert
+% frames to this object.
+
+vp = VideoPlayer('./Resources/TestVideo.mp4');
+
+for i = 1:10 
+    vr.addFrame(vp.Frame);
+    
+    vp + 1;
+end
+
+clear vp;
+
+%% Close the VideoRecorder Object
+% Finally we have to close the video sequence by releasing the
+% *VideoRecorder* object.
+
+clear vr;
+
+%% See the Recorded Video
+% Finally with this script you can see the recorded video.
+
+vp = VideoPlayer('NewVideo.mov');
+
+while (true)   
+    plot(vp);
+    drawnow;
+    
+    if (~vp.nextFrame)
+       break;
+    end
+end
+
+clear vp;
+##### SOURCE END #####
+--></body></html>

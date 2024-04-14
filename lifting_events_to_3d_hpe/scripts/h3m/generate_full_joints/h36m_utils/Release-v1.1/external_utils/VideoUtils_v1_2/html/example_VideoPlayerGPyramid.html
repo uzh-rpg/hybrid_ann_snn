@@ -1,0 +1,127 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>Simple VideoPlayerGPyramid Example</title><meta name="generator" content="MATLAB 7.13"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2012-04-28"><meta name="DC.source" content="example_VideoPlayerGPyramid.m"><style type="text/css">
+
+body {
+  background-color: white;
+  margin:10px;
+}
+
+h1 {
+  color: #990000; 
+  font-size: x-large;
+}
+
+h2 {
+  color: #990000;
+  font-size: medium;
+}
+
+/* Make the text shrink to fit narrow windows, but not stretch too far in 
+wide windows. */ 
+p,h1,h2,div.content div {
+  max-width: 600px;
+  /* Hack for IE6 */
+  width: auto !important; width: 600px;
+}
+
+pre.codeinput {
+  background: #EEEEEE;
+  padding: 10px;
+}
+@media print {
+  pre.codeinput {word-wrap:break-word; width:100%;}
+} 
+
+span.keyword {color: #0000FF}
+span.comment {color: #228B22}
+span.string {color: #A020F0}
+span.untermstring {color: #B20000}
+span.syscmd {color: #B28C00}
+
+pre.codeoutput {
+  color: #666666;
+  padding: 10px;
+}
+
+pre.error {
+  color: red;
+}
+
+p.footer {
+  text-align: right;
+  font-size: xx-small;
+  font-weight: lighter;
+  font-style: italic;
+  color: gray;
+}
+
+  </style></head><body><div class="content"><h1>Simple VideoPlayerGPyramid Example</h1><!--introduction--><p>In here you can see and example of how to use the <b>VideoPlayerGPyramid</b> object in order to reproduce a Video as a gaussian pyaramid.</p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Create a new VideoPlayerGPyramid Object</a></li><li><a href="#2">Define the position of the windows</a></li><li><a href="#3">Play the video sequence</a></li><li><a href="#4">Release the VideoPlayerGPyarmid Object</a></li></ul></div><h2>Create a new VideoPlayerGPyramid Object<a name="1"></a></h2><p>To generate a new <b>VideoPlayerGPyramid</b> object we have to use the next sentence, where 'levels' is the number of gaussian pyramid levels.</p><pre class="codeinput">levels = 4; <span class="comment">% Number of gaussian pyramid levels</span>
+
+vpgp = VideoPlayerGPyramid(<span class="string">'./Resources/TestVideo.mp4'</span>, levels);
+</pre><h2>Define the position of the windows<a name="2"></a></h2><p>This part is optional but if you want to order the windows (one for each level of the gaussian pyramid) the you must do as follows:</p><pre class="codeinput">startX = 100;
+startY = 600;
+width  = 466;
+height = 350;
+
+vpgp.setPosition ( startX, startY, width, height);
+</pre><img vspace="5" hspace="5" src="example_VideoPlayerGPyramid_01.png" alt=""> <img vspace="5" hspace="5" src="example_VideoPlayerGPyramid_02.png" alt=""> <img vspace="5" hspace="5" src="example_VideoPlayerGPyramid_03.png" alt=""> <img vspace="5" hspace="5" src="example_VideoPlayerGPyramid_04.png" alt=""> <h2>Play the video sequence<a name="3"></a></h2><p>Then you need to include this loop in order to play the entire video sequence:</p><pre class="codeinput"><span class="keyword">while</span> ( true )
+   plot( vpgp );
+
+   drawnow;
+   <span class="keyword">if</span> ( ~vpgp.nextFrame )
+       <span class="keyword">break</span>;
+   <span class="keyword">end</span>
+<span class="keyword">end</span>
+</pre><img vspace="5" hspace="5" src="example_VideoPlayerGPyramid_05.png" alt=""> <img vspace="5" hspace="5" src="example_VideoPlayerGPyramid_06.png" alt=""> <img vspace="5" hspace="5" src="example_VideoPlayerGPyramid_07.png" alt=""> <img vspace="5" hspace="5" src="example_VideoPlayerGPyramid_08.png" alt=""> <h2>Release the VideoPlayerGPyarmid Object<a name="4"></a></h2><p>Finally you have to release the object.</p><pre class="codeinput">clear <span class="string">vpgp</span>;
+</pre><p class="footer"><br>
+      Published with MATLAB&reg; 7.13<br></p></div><!--
+##### SOURCE BEGIN #####
+%% Simple VideoPlayerGPyramid Example
+% In here you can see and example of how to use the *VideoPlayerGPyramid* 
+% object in order to reproduce a Video as a gaussian pyaramid.
+
+%% Create a new VideoPlayerGPyramid Object
+% To generate a new *VideoPlayerGPyramid* object we have to use the next 
+% sentence, where 'levels' is the number of gaussian pyramid levels. 
+
+levels = 4; % Number of gaussian pyramid levels
+
+vpgp = VideoPlayerGPyramid('./Resources/TestVideo.mp4', levels);
+
+%% Define the position of the windows
+% This part is optional but if you want to order the windows (one for each
+% level of the gaussian pyramid) the you must do as follows:
+
+startX = 100;
+startY = 600;
+width  = 466;
+height = 350;
+
+vpgp.setPosition ( startX, startY, width, height);
+
+%% Play the video sequence
+% Then you need to include this loop in order to play the entire video
+% sequence:
+
+while ( true )
+   plot( vpgp );
+   
+   drawnow;
+   if ( ~vpgp.nextFrame )
+       break;
+   end   
+end
+
+%% Release the VideoPlayerGPyarmid Object
+% Finally you have to release the object.
+
+clear vpgp;
+##### SOURCE END #####
+--></body></html>

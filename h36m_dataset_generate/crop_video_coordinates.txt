@@ -1,0 +1,836 @@
+S1 : Posing 1 view 1   -->   x_start 65, y_start 15 
+S1 : SittingDown  view 3   -->   x_start 80, y_start 35 
+S1 : Walking 1 view 0   -->   x_start 0, y_start 189 
+S1 : Posing  view 0   -->   x_start 69, y_start 75 
+S1 : Smoking  view 3   -->   x_start 31, y_start 15 
+S1 : Eating  view 2   -->   x_start 96, y_start 64 
+S1 : Phoning  view 2   -->   x_start 64, y_start 68 
+S1 : Discussion 1 view 2   -->   x_start 235, y_start 0 
+S1 : Eating  view 3   -->   x_start 14, y_start 18 
+S1 : Sitting 1 view 3   -->   x_start 45, y_start 12 
+S1 : Sitting 1 view 1   -->   x_start 61, y_start 46 
+S1 : Phoning 1 view 1   -->   x_start 100, y_start 57 
+S1 : Smoking  view 0   -->   x_start 4, y_start 128 
+S1 : Walking  view 1   -->   x_start 142, y_start 92 
+S1 : Directions 1 view 2   -->   x_start 190, y_start 0 
+S1 : WalkTogether 1 view 1   -->   x_start 109, y_start 92 
+S1 : Directions 1 view 1   -->   x_start 32, y_start 20 
+S1 : Greeting 1 view 0   -->   x_start 0, y_start 51 
+S1 : Sitting 2 view 0   -->   x_start 0, y_start 68 
+S1 : Greeting  view 0   -->   x_start 0, y_start 52 
+S1 : Greeting 1 view 2   -->   x_start 196, y_start 0 
+S1 : Walking  view 0   -->   x_start 0, y_start 184 
+S1 : Smoking 1 view 0   -->   x_start 54, y_start 145 
+S1 : Sitting 1 view 2   -->   x_start 150, y_start 0 
+S1 : Discussion 1 view 0   -->   x_start 63, y_start 65 
+S1 : Sitting 2 view 3   -->   x_start 57, y_start 21 
+S1 : Walking 1 view 1   -->   x_start 141, y_start 81 
+S1 : Posing 1 view 3   -->   x_start 0, y_start 0 
+S1 : Eating 2 view 0   -->   x_start 0, y_start 118 
+S1 : SittingDown 2 view 2   -->   x_start 183, y_start 12 
+S1 : Photo 1 view 3   -->   x_start 0, y_start 0 
+S1 : Posing 1 view 2   -->   x_start 154, y_start 0 
+S1 : Waiting  view 3   -->   x_start 15, y_start 4 
+S1 : WalkTogether 1 view 2   -->   x_start 0, y_start 96 
+S1 : SittingDown 2 view 1   -->   x_start 18, y_start 70 
+S1 : Waiting 1 view 1   -->   x_start 0, y_start 42 
+S1 : Photo  view 0   -->   x_start 11, y_start 71 
+S1 : Purchases  view 2   -->   x_start 164, y_start 13 
+S1 : Photo  view 1   -->   x_start 48, y_start 17 
+S1 : Discussion  view 0   -->   x_start 34, y_start 78 
+S1 : WalkDog  view 1   -->   x_start 128, y_start 82 
+S1 : Purchases  view 0   -->   x_start 0, y_start 89 
+S1 : Eating 2 view 3   -->   x_start 30, y_start 7 
+S1 : Waiting 1 view 2   -->   x_start 208, y_start 0 
+S1 : Waiting  view 1   -->   x_start 25, y_start 35 
+S1 : WalkTogether  view 3   -->   x_start 97, y_start 63 
+S1 : Greeting  view 1   -->   x_start 34, y_start 17 
+S1 : Purchases 1 view 0   -->   x_start 0, y_start 83 
+S1 : Waiting 1 view 3   -->   x_start 12, y_start 15 
+S1 : Discussion 1 view 1   -->   x_start 0, y_start 21 
+S1 : Posing  view 3   -->   x_start 0, y_start 0 
+S1 : Posing 1 view 0   -->   x_start 35, y_start 67 
+S1 : Phoning 1 view 3   -->   x_start 41, y_start 29 
+S1 : Smoking 1 view 3   -->   x_start 0, y_start 2 
+S1 : Directions  view 2   -->   x_start 149, y_start 1 
+S1 : WalkDog 1 view 1   -->   x_start 94, y_start 66 
+S1 : Discussion 1 view 3   -->   x_start 0, y_start 0 
+S1 : Eating  view 1   -->   x_start 99, y_start 48 
+S1 : Directions  view 1   -->   x_start 70, y_start 20 
+S1 : Purchases 1 view 2   -->   x_start 178, y_start 10 
+S1 : Directions 1 view 0   -->   x_start 50, y_start 70 
+S1 : WalkDog  view 0   -->   x_start 28, y_start 175 
+S1 : Directions  view 3   -->   x_start 0, y_start 0 
+S1 : Directions 1 view 3   -->   x_start 0, y_start 0 
+S1 : Phoning  view 3   -->   x_start 28, y_start 17 
+S1 : Eating  view 0   -->   x_start 50, y_start 139 
+S1 : Smoking 1 view 1   -->   x_start 143, y_start 51 
+S1 : WalkDog  view 3   -->   x_start 90, y_start 61 
+S1 : WalkTogether 1 view 3   -->   x_start 40, y_start 81 
+S1 : Smoking  view 1   -->   x_start 118, y_start 57 
+S1 : Eating 2 view 1   -->   x_start 128, y_start 48 
+S1 : Discussion  view 3   -->   x_start 0, y_start 0 
+S1 : Walking  view 2   -->   x_start 0, y_start 84 
+S1 : SittingDown  view 1   -->   x_start 37, y_start 63 
+S1 : Walking 1 view 3   -->   x_start 125, y_start 61 
+S1 : WalkTogether  view 0   -->   x_start 69, y_start 171 
+S1 : Directions  view 0   -->   x_start 23, y_start 73 
+S1 : Greeting 1 view 1   -->   x_start 9, y_start 18 
+S1 : Greeting 1 view 3   -->   x_start 45, y_start 0 
+S1 : Smoking 1 view 2   -->   x_start 71, y_start 71 
+S1 : Photo 1 view 0   -->   x_start 23, y_start 80 
+S1 : Discussion  view 1   -->   x_start 11, y_start 28 
+S1 : Greeting  view 3   -->   x_start 54, y_start 0 
+S1 : Waiting 1 view 0   -->   x_start 12, y_start 70 
+S1 : Smoking  view 2   -->   x_start 74, y_start 54 
+S1 : WalkDog 1 view 2   -->   x_start 1, y_start 68 
+S1 : Walking 1 view 2   -->   x_start 0, y_start 91 
+S1 : WalkTogether  view 2   -->   x_start 0, y_start 79 
+S1 : Greeting  view 2   -->   x_start 178, y_start 0 
+S1 : Purchases  view 3   -->   x_start 148, y_start 60 
+S1 : Sitting 1 view 0   -->   x_start 0, y_start 64 
+S1 : Waiting  view 0   -->   x_start 3, y_start 62 
+S1 : Photo 1 view 1   -->   x_start 57, y_start 26 
+S1 : SittingDown  view 2   -->   x_start 156, y_start 26 
+S1 : WalkDog 1 view 3   -->   x_start 72, y_start 82 
+S1 : Discussion  view 2   -->   x_start 200, y_start 9 
+S1 : SittingDown 2 view 0   -->   x_start 0, y_start 83 
+S1 : Phoning  view 0   -->   x_start 39, y_start 142 
+S1 : Photo  view 2   -->   x_start 159, y_start 1 
+S1 : SittingDown  view 0   -->   x_start 0, y_start 98 
+S1 : WalkDog 1 view 0   -->   x_start 10, y_start 174 
+S1 : Photo 1 view 2   -->   x_start 158, y_start 4 
+S1 : Sitting 2 view 1   -->   x_start 92, y_start 51 
+S1 : Posing  view 1   -->   x_start 33, y_start 23 
+S1 : Phoning 1 view 0   -->   x_start 2, y_start 117 
+S1 : WalkTogether 1 view 0   -->   x_start 53, y_start 184 
+S1 : Phoning 1 view 2   -->   x_start 90, y_start 37 
+S1 : Purchases 1 view 1   -->   x_start 0, y_start 74 
+S1 : Phoning  view 1   -->   x_start 96, y_start 51 
+S1 : Purchases 1 view 3   -->   x_start 156, y_start 75 
+S1 : WalkTogether  view 1   -->   x_start 143, y_start 77 
+S1 : Sitting 2 view 2   -->   x_start 128, y_start 0 
+S1 : Walking  view 3   -->   x_start 150, y_start 89 
+S1 : WalkDog  view 2   -->   x_start 0, y_start 67 
+S1 : Photo  view 3   -->   x_start 10, y_start 0 
+S1 : SittingDown 2 view 3   -->   x_start 45, y_start 49 
+S1 : Waiting  view 2   -->   x_start 185, y_start 0 
+S1 : Purchases  view 1   -->   x_start 9, y_start 71 
+S1 : Posing  view 2   -->   x_start 181, y_start 3 
+S1 : Eating 2 view 2   -->   x_start 77, y_start 34 
+S11 : Posing 1 view 1   -->   x_start 42, y_start 34 
+S11 : SittingDown  view 3   -->   x_start 0, y_start 23 
+S11 : Walking 1 view 0   -->   x_start 2, y_start 118 
+S11 : Discussion 2 view 3   -->   x_start 134, y_start 15 
+S11 : Posing  view 0   -->   x_start 14, y_start 77 
+S11 : Smoking 2 view 2   -->   x_start 192, y_start 22 
+S11 : Smoking  view 3   -->   x_start 54, y_start 60 
+S11 : Eating 1 view 2   -->   x_start 84, y_start 42 
+S11 : Eating  view 2   -->   x_start 87, y_start 44 
+S11 : Phoning 2 view 2   -->   x_start 144, y_start 40 
+S11 : Photo  view 2   -->   x_start 178, y_start 0 
+S11 : Discussion 1 view 2   -->   x_start 175, y_start 0 
+S11 : Eating  view 3   -->   x_start 75, y_start 66 
+S11 : Sitting  view 0   -->   x_start 28, y_start 49 
+S11 : SittingDown 1 view 0   -->   x_start 18, y_start 128 
+S11 : Phoning 2 view 1   -->   x_start 77, y_start 86 
+S11 : Sitting 1 view 3   -->   x_start 0, y_start 25 
+S11 : Sitting 1 view 1   -->   x_start 0, y_start 65 
+S11 : Phoning 3 view 0   -->   x_start 15, y_start 118 
+S11 : Smoking  view 0   -->   x_start 0, y_start 106 
+S11 : Walking  view 1   -->   x_start 84, y_start 72 
+S11 : Directions 1 view 2   -->   x_start 220, y_start 0 
+S11 : WalkTogether 1 view 1   -->   x_start 79, y_start 83 
+S11 : Photo 1 view 1   -->   x_start 112, y_start 48 
+S11 : Directions 1 view 1   -->   x_start 11, y_start 19 
+S11 : Phoning 3 view 2   -->   x_start 132, y_start 54 
+S11 : Greeting  view 0   -->   x_start 0, y_start 42 
+S11 : Phoning 2 view 0   -->   x_start 0, y_start 109 
+S11 : Walking  view 0   -->   x_start 0, y_start 124 
+S11 : Sitting 1 view 2   -->   x_start 289, y_start 0 
+S11 : Discussion 1 view 0   -->   x_start 0, y_start 57 
+S11 : Sitting  view 3   -->   x_start 0, y_start 33 
+S11 : Discussion 2 view 2   -->   x_start 177, y_start 0 
+S11 : Walking 1 view 1   -->   x_start 75, y_start 76 
+S11 : Posing 1 view 3   -->   x_start 0, y_start 3 
+S11 : WalkDog  view 1   -->   x_start 27, y_start 75 
+S11 : Posing 1 view 2   -->   x_start 193, y_start 2 
+S11 : Waiting  view 3   -->   x_start 20, y_start 1 
+S11 : WalkTogether 1 view 2   -->   x_start 78, y_start 59 
+S11 : Waiting 1 view 1   -->   x_start 48, y_start 35 
+S11 : Purchases  view 2   -->   x_start 85, y_start 29 
+S11 : Discussion 2 view 0   -->   x_start 0, y_start 56 
+S11 : Photo  view 1   -->   x_start 89, y_start 67 
+S11 : SittingDown 1 view 2   -->   x_start 58, y_start 59 
+S11 : Purchases  view 0   -->   x_start 62, y_start 93 
+S11 : Waiting 1 view 2   -->   x_start 186, y_start 0 
+S11 : Photo  view 0   -->   x_start 0, y_start 62 
+S11 : Waiting  view 1   -->   x_start 31, y_start 39 
+S11 : WalkTogether  view 3   -->   x_start 72, y_start 76 
+S11 : Greeting  view 1   -->   x_start 94, y_start 60 
+S11 : Purchases 1 view 0   -->   x_start 80, y_start 122 
+S11 : Waiting 1 view 3   -->   x_start 50, y_start 0 
+S11 : Greeting 2 view 3   -->   x_start 72, y_start 23 
+S11 : Eating 1 view 0   -->   x_start 0, y_start 110 
+S11 : Discussion 1 view 1   -->   x_start 63, y_start 29 
+S11 : Posing  view 3   -->   x_start 0, y_start 0 
+S11 : Posing 1 view 0   -->   x_start 14, y_start 67 
+S11 : Discussion 1 view 3   -->   x_start 49, y_start 0 
+S11 : Phoning 3 view 3   -->   x_start 77, y_start 72 
+S11 : Eating  view 1   -->   x_start 70, y_start 79 
+S11 : WalkDog  view 3   -->   x_start 10, y_start 71 
+S11 : Smoking 2 view 1   -->   x_start 25, y_start 78 
+S11 : Eating 1 view 3   -->   x_start 84, y_start 61 
+S11 : Sitting  view 2   -->   x_start 289, y_start 0 
+S11 : Purchases 1 view 2   -->   x_start 3, y_start 51 
+S11 : Directions 1 view 0   -->   x_start 0, y_start 48 
+S11 : Photo  view 3   -->   x_start 56, y_start 17 
+S11 : Directions 1 view 3   -->   x_start 7, y_start 0 
+S11 : Greeting 2 view 0   -->   x_start 0, y_start 49 
+S11 : Discussion 2 view 1   -->   x_start 80, y_start 65 
+S11 : Sitting  view 1   -->   x_start 0, y_start 70 
+S11 : Eating  view 0   -->   x_start 0, y_start 111 
+S11 : WalkDog  view 2   -->   x_start 80, y_start 60 
+S11 : WalkDog 1 view 2   -->   x_start 92, y_start 54 
+S11 : SittingDown 1 view 1   -->   x_start 112, y_start 55 
+S11 : Phoning 3 view 1   -->   x_start 56, y_start 90 
+S11 : WalkTogether 1 view 3   -->   x_start 67, y_start 64 
+S11 : Smoking  view 1   -->   x_start 36, y_start 79 
+S11 : Walking  view 2   -->   x_start 79, y_start 55 
+S11 : SittingDown  view 1   -->   x_start 86, y_start 57 
+S11 : WalkDog 1 view 0   -->   x_start 128, y_start 117 
+S11 : Photo 1 view 2   -->   x_start 136, y_start 1 
+S11 : Walking 1 view 3   -->   x_start 60, y_start 69 
+S11 : WalkTogether  view 0   -->   x_start 0, y_start 112 
+S11 : Phoning 2 view 3   -->   x_start 44, y_start 60 
+S11 : Photo 1 view 0   -->   x_start 0, y_start 79 
+S11 : Photo 1 view 3   -->   x_start 66, y_start 13 
+S11 : Smoking 2 view 3   -->   x_start 38, y_start 66 
+S11 : Greeting  view 3   -->   x_start 87, y_start 30 
+S11 : SittingDown 1 view 3   -->   x_start 19, y_start 17 
+S11 : Waiting 1 view 0   -->   x_start 0, y_start 59 
+S11 : Smoking  view 2   -->   x_start 132, y_start 36 
+S11 : Walking 1 view 2   -->   x_start 78, y_start 51 
+S11 : WalkTogether  view 2   -->   x_start 84, y_start 45 
+S11 : Greeting  view 2   -->   x_start 101, y_start 0 
+S11 : Purchases  view 3   -->   x_start 0, y_start 9 
+S11 : Sitting 1 view 0   -->   x_start 34, y_start 48 
+S11 : Waiting  view 0   -->   x_start 0, y_start 55 
+S11 : SittingDown  view 2   -->   x_start 127, y_start 47 
+S11 : WalkDog  view 0   -->   x_start 124, y_start 124 
+S11 : WalkDog 1 view 3   -->   x_start 11, y_start 87 
+S11 : SittingDown  view 0   -->   x_start 24, y_start 116 
+S11 : Greeting 2 view 1   -->   x_start 60, y_start 42 
+S11 : Eating 1 view 1   -->   x_start 101, y_start 74 
+S11 : Posing  view 1   -->   x_start 40, y_start 36 
+S11 : Greeting 2 view 2   -->   x_start 141, y_start 0 
+S11 : WalkTogether 1 view 0   -->   x_start 7, y_start 120 
+S11 : Purchases 1 view 1   -->   x_start 143, y_start 42 
+S11 : Smoking 2 view 0   -->   x_start 0, y_start 80 
+S11 : WalkDog 1 view 1   -->   x_start 16, y_start 77 
+S11 : Purchases 1 view 3   -->   x_start 3, y_start 0 
+S11 : WalkTogether  view 1   -->   x_start 72, y_start 82 
+S11 : Walking  view 3   -->   x_start 54, y_start 57 
+S11 : Waiting  view 2   -->   x_start 205, y_start 0 
+S11 : Purchases  view 1   -->   x_start 97, y_start 43 
+S11 : Posing  view 2   -->   x_start 188, y_start 9 
+S5 : Posing 1 view 1   -->   x_start 135, y_start 32 
+S5 : SittingDown  view 3   -->   x_start 2, y_start 25 
+S5 : Walking 1 view 0   -->   x_start 15, y_start 158 
+S5 : Discussion 2 view 3   -->   x_start 22, y_start 62 
+S5 : Posing  view 0   -->   x_start 0, y_start 77 
+S5 : Smoking  view 3   -->   x_start 118, y_start 54 
+S5 : Eating 1 view 2   -->   x_start 81, y_start 51 
+S5 : Eating  view 2   -->   x_start 99, y_start 44 
+S5 : Phoning  view 2   -->   x_start 94, y_start 40 
+S5 : Photo  view 2   -->   x_start 87, y_start 34 
+S5 : Eating  view 3   -->   x_start 60, y_start 86 
+S5 : Sitting  view 0   -->   x_start 0, y_start 71 
+S5 : SittingDown 1 view 0   -->   x_start 0, y_start 113 
+S5 : Sitting 1 view 3   -->   x_start 127, y_start 45 
+S5 : Sitting 1 view 1   -->   x_start 71, y_start 60 
+S5 : Phoning 1 view 1   -->   x_start 122, y_start 56 
+S5 : Smoking  view 0   -->   x_start 0, y_start 119 
+S5 : Walking  view 1   -->   x_start 51, y_start 87 
+S5 : Directions 1 view 2   -->   x_start 135, y_start 28 
+S5 : WalkTogether 1 view 1   -->   x_start 104, y_start 54 
+S5 : Directions 1 view 1   -->   x_start 81, y_start 28 
+S5 : Greeting 1 view 0   -->   x_start 0, y_start 103 
+S5 : Waiting 2 view 1   -->   x_start 94, y_start 40 
+S5 : Greeting 1 view 2   -->   x_start 118, y_start 20 
+S5 : Walking  view 0   -->   x_start 25, y_start 166 
+S5 : Waiting 2 view 3   -->   x_start 74, y_start 24 
+S5 : Smoking 1 view 0   -->   x_start 0, y_start 128 
+S5 : Sitting 1 view 2   -->   x_start 120, y_start 3 
+S5 : Sitting  view 3   -->   x_start 101, y_start 46 
+S5 : Photo 2 view 1   -->   x_start 107, y_start 22 
+S5 : Discussion 2 view 2   -->   x_start 152, y_start 91 
+S5 : Walking 1 view 1   -->   x_start 82, y_start 79 
+S5 : Posing 1 view 3   -->   x_start 30, y_start 0 
+S5 : WalkDog  view 1   -->   x_start 0, y_start 68 
+S5 : Posing 1 view 2   -->   x_start 51, y_start 14 
+S5 : WalkTogether 1 view 2   -->   x_start 60, y_start 42 
+S5 : Waiting 1 view 1   -->   x_start 104, y_start 56 
+S5 : Purchases  view 2   -->   x_start 75, y_start 61 
+S5 : Discussion 2 view 0   -->   x_start 95, y_start 171 
+S5 : Photo  view 1   -->   x_start 122, y_start 40 
+S5 : SittingDown 1 view 2   -->   x_start 110, y_start 42 
+S5 : Purchases  view 0   -->   x_start 66, y_start 140 
+S5 : Waiting 2 view 2   -->   x_start 87, y_start 29 
+S5 : Directions 2 view 3   -->   x_start 56, y_start 0 
+S5 : Waiting 1 view 2   -->   x_start 49, y_start 61 
+S5 : Photo  view 0   -->   x_start 8, y_start 105 
+S5 : WalkTogether  view 3   -->   x_start 50, y_start 55 
+S5 : Directions 2 view 2   -->   x_start 53, y_start 13 
+S5 : Purchases 1 view 0   -->   x_start 57, y_start 140 
+S5 : Waiting 1 view 3   -->   x_start 90, y_start 37 
+S5 : Greeting 2 view 3   -->   x_start 122, y_start 0 
+S5 : Eating 1 view 0   -->   x_start 0, y_start 125 
+S5 : Photo 2 view 3   -->   x_start 0, y_start 0 
+S5 : Posing  view 3   -->   x_start 22, y_start 0 
+S5 : Posing 1 view 0   -->   x_start 0, y_start 90 
+S5 : Phoning 1 view 3   -->   x_start 63, y_start 34 
+S5 : Smoking 1 view 3   -->   x_start 69, y_start 50 
+S5 : Eating  view 1   -->   x_start 58, y_start 68 
+S5 : WalkDog  view 3   -->   x_start 23, y_start 101 
+S5 : Eating 1 view 3   -->   x_start 77, y_start 52 
+S5 : Discussion 3 view 1   -->   x_start 39, y_start 23 
+S5 : Sitting  view 2   -->   x_start 119, y_start 6 
+S5 : Purchases 1 view 2   -->   x_start 126, y_start 71 
+S5 : Directions 1 view 0   -->   x_start 39, y_start 94 
+S5 : Photo  view 3   -->   x_start 0, y_start 5 
+S5 : Directions 1 view 3   -->   x_start 0, y_start 0 
+S5 : Greeting 2 view 0   -->   x_start 0, y_start 63 
+S5 : Phoning  view 3   -->   x_start 78, y_start 69 
+S5 : Discussion 2 view 1   -->   x_start 30, y_start 69 
+S5 : Sitting  view 1   -->   x_start 77, y_start 63 
+S5 : Eating  view 0   -->   x_start 0, y_start 126 
+S5 : Smoking 1 view 1   -->   x_start 105, y_start 66 
+S5 : WalkDog  view 2   -->   x_start 85, y_start 98 
+S5 : WalkDog 1 view 2   -->   x_start 12, y_start 80 
+S5 : SittingDown 1 view 1   -->   x_start 104, y_start 62 
+S5 : Discussion 3 view 3   -->   x_start 17, y_start 12 
+S5 : WalkTogether 1 view 3   -->   x_start 47, y_start 57 
+S5 : Smoking  view 1   -->   x_start 111, y_start 70 
+S5 : Walking  view 2   -->   x_start 50, y_start 84 
+S5 : SittingDown  view 1   -->   x_start 109, y_start 58 
+S5 : WalkDog 1 view 0   -->   x_start 12, y_start 165 
+S5 : Walking 1 view 3   -->   x_start 41, y_start 89 
+S5 : WalkTogether  view 0   -->   x_start 32, y_start 160 
+S5 : Waiting 2 view 0   -->   x_start 0, y_start 99 
+S5 : Greeting 1 view 1   -->   x_start 50, y_start 46 
+S5 : Photo 2 view 2   -->   x_start 64, y_start 29 
+S5 : Greeting 1 view 3   -->   x_start 45, y_start 60 
+S5 : Smoking 1 view 2   -->   x_start 77, y_start 50 
+S5 : SittingDown 1 view 3   -->   x_start 5, y_start 35 
+S5 : Waiting 1 view 0   -->   x_start 0, y_start 145 
+S5 : Smoking  view 2   -->   x_start 74, y_start 42 
+S5 : Walking 1 view 2   -->   x_start 40, y_start 81 
+S5 : WalkTogether  view 2   -->   x_start 22, y_start 67 
+S5 : Purchases  view 3   -->   x_start 41, y_start 0 
+S5 : Sitting 1 view 0   -->   x_start 0, y_start 70 
+S5 : SittingDown  view 2   -->   x_start 90, y_start 51 
+S5 : WalkDog  view 0   -->   x_start 54, y_start 170 
+S5 : WalkDog 1 view 3   -->   x_start 29, y_start 95 
+S5 : Phoning  view 0   -->   x_start 0, y_start 118 
+S5 : SittingDown  view 0   -->   x_start 6, y_start 118 
+S5 : Greeting 2 view 1   -->   x_start 46, y_start 27 
+S5 : Eating 1 view 1   -->   x_start 116, y_start 77 
+S5 : Posing  view 1   -->   x_start 144, y_start 9 
+S5 : Phoning 1 view 0   -->   x_start 0, y_start 105 
+S5 : Greeting 2 view 2   -->   x_start 160, y_start 0 
+S5 : Directions 2 view 1   -->   x_start 113, y_start 20 
+S5 : WalkTogether 1 view 0   -->   x_start 0, y_start 129 
+S5 : Phoning 1 view 2   -->   x_start 78, y_start 19 
+S5 : Discussion 3 view 0   -->   x_start 21, y_start 103 
+S5 : Purchases 1 view 1   -->   x_start 53, y_start 44 
+S5 : Directions 2 view 0   -->   x_start 0, y_start 90 
+S5 : WalkDog 1 view 1   -->   x_start 95, y_start 78 
+S5 : Phoning  view 1   -->   x_start 93, y_start 70 
+S5 : Purchases 1 view 3   -->   x_start 0, y_start 32 
+S5 : WalkTogether  view 1   -->   x_start 114, y_start 71 
+S5 : Walking  view 3   -->   x_start 54, y_start 106 
+S5 : Discussion 3 view 2   -->   x_start 125, y_start 26 
+S5 : Purchases  view 1   -->   x_start 64, y_start 20 
+S5 : Posing  view 2   -->   x_start 61, y_start 5 
+S5 : Photo 2 view 0   -->   x_start 69, y_start 94 
+S6 : SittingDown  view 3   -->   x_start 0, y_start 10 
+S6 : Walking 1 view 0   -->   x_start 5, y_start 136 
+S6 : Posing  view 0   -->   x_start 19, y_start 102 
+S6 : Smoking  view 3   -->   x_start 28, y_start 40 
+S6 : Eating 1 view 2   -->   x_start 87, y_start 32 
+S6 : Phoning  view 2   -->   x_start 94, y_start 37 
+S6 : Photo  view 2   -->   x_start 66, y_start 25 
+S6 : Discussion 1 view 2   -->   x_start 99, y_start 24 
+S6 : SittingDown 1 view 0   -->   x_start 70, y_start 94 
+S6 : Sitting 1 view 3   -->   x_start 19, y_start 5 
+S6 : Sitting 1 view 1   -->   x_start 59, y_start 28 
+S6 : Phoning 1 view 1   -->   x_start 71, y_start 53 
+S6 : Smoking  view 0   -->   x_start 47, y_start 123 
+S6 : Walking  view 1   -->   x_start 64, y_start 62 
+S6 : Directions 1 view 2   -->   x_start 101, y_start 0 
+S6 : WalkTogether 1 view 1   -->   x_start 38, y_start 60 
+S6 : Photo 1 view 1   -->   x_start 107, y_start 43 
+S6 : Directions 1 view 1   -->   x_start 91, y_start 19 
+S6 : Greeting 1 view 0   -->   x_start 49, y_start 65 
+S6 : Sitting 2 view 0   -->   x_start 4, y_start 51 
+S6 : Greeting  view 0   -->   x_start 70, y_start 70 
+S6 : Greeting 1 view 2   -->   x_start 132, y_start 0 
+S6 : Walking  view 0   -->   x_start 35, y_start 137 
+S6 : Waiting 3 view 1   -->   x_start 82, y_start 6 
+S6 : Smoking 1 view 0   -->   x_start 34, y_start 104 
+S6 : Sitting 1 view 2   -->   x_start 144, y_start 0 
+S6 : Posing 2 view 1   -->   x_start 99, y_start 32 
+S6 : Discussion 1 view 0   -->   x_start 84, y_start 93 
+S6 : Sitting 2 view 3   -->   x_start 21, y_start 2 
+S6 : Walking 1 view 1   -->   x_start 53, y_start 55 
+S6 : Eating 2 view 0   -->   x_start 35, y_start 105 
+S6 : WalkDog  view 1   -->   x_start 20, y_start 51 
+S6 : Waiting  view 3   -->   x_start 0, y_start 0 
+S6 : WalkTogether 1 view 2   -->   x_start 25, y_start 48 
+S6 : Purchases  view 2   -->   x_start 89, y_start 36 
+S6 : Discussion  view 0   -->   x_start 95, y_start 107 
+S6 : Photo  view 1   -->   x_start 108, y_start 30 
+S6 : SittingDown 1 view 2   -->   x_start 137, y_start 30 
+S6 : Purchases  view 0   -->   x_start 104, y_start 103 
+S6 : Eating 2 view 3   -->   x_start 4, y_start 12 
+S6 : Photo  view 0   -->   x_start 0, y_start 108 
+S6 : Waiting  view 1   -->   x_start 104, y_start 3 
+S6 : WalkTogether  view 3   -->   x_start 82, y_start 91 
+S6 : Greeting  view 1   -->   x_start 0, y_start 17 
+S6 : Purchases 1 view 0   -->   x_start 82, y_start 121 
+S6 : Posing 2 view 3   -->   x_start 17, y_start 0 
+S6 : Eating 1 view 0   -->   x_start 16, y_start 97 
+S6 : Discussion 1 view 1   -->   x_start 78, y_start 13 
+S6 : Posing  view 3   -->   x_start 8, y_start 6 
+S6 : Phoning 1 view 3   -->   x_start 35, y_start 51 
+S6 : Smoking 1 view 3   -->   x_start 100, y_start 54 
+S6 : Directions  view 2   -->   x_start 143, y_start 0 
+S6 : Discussion 1 view 3   -->   x_start 0, y_start 0 
+S6 : WalkDog  view 3   -->   x_start 40, y_start 58 
+S6 : Eating 1 view 3   -->   x_start 24, y_start 31 
+S6 : Directions  view 1   -->   x_start 76, y_start 16 
+S6 : Purchases 1 view 2   -->   x_start 46, y_start 34 
+S6 : Directions 1 view 0   -->   x_start 28, y_start 65 
+S6 : Directions  view 3   -->   x_start 0, y_start 0 
+S6 : Photo  view 3   -->   x_start 117, y_start 7 
+S6 : Directions 1 view 3   -->   x_start 22, y_start 0 
+S6 : Phoning  view 3   -->   x_start 56, y_start 57 
+S6 : Waiting 3 view 2   -->   x_start 132, y_start 0 
+S6 : Smoking 1 view 1   -->   x_start 65, y_start 58 
+S6 : WalkDog  view 2   -->   x_start 120, y_start 19 
+S6 : WalkDog 1 view 2   -->   x_start 166, y_start 36 
+S6 : SittingDown 1 view 1   -->   x_start 60, y_start 44 
+S6 : WalkTogether 1 view 3   -->   x_start 82, y_start 95 
+S6 : Smoking  view 1   -->   x_start 63, y_start 51 
+S6 : Eating 2 view 1   -->   x_start 78, y_start 45 
+S6 : Discussion  view 3   -->   x_start 0, y_start 0 
+S6 : Walking  view 2   -->   x_start 36, y_start 59 
+S6 : SittingDown  view 1   -->   x_start 63, y_start 35 
+S6 : WalkDog 1 view 0   -->   x_start 32, y_start 109 
+S6 : Photo 1 view 2   -->   x_start 51, y_start 29 
+S6 : Walking 1 view 3   -->   x_start 53, y_start 64 
+S6 : WalkTogether  view 0   -->   x_start 83, y_start 133 
+S6 : Directions  view 0   -->   x_start 32, y_start 60 
+S6 : Photo 1 view 0   -->   x_start 32, y_start 100 
+S6 : Greeting 1 view 1   -->   x_start 35, y_start 0 
+S6 : Greeting 1 view 3   -->   x_start 0, y_start 0 
+S6 : Smoking 1 view 2   -->   x_start 103, y_start 44 
+S6 : Photo 1 view 3   -->   x_start 68, y_start 22 
+S6 : Discussion  view 1   -->   x_start 91, y_start 10 
+S6 : Greeting  view 3   -->   x_start 6, y_start 5 
+S6 : SittingDown 1 view 3   -->   x_start 0, y_start 17 
+S6 : Smoking  view 2   -->   x_start 133, y_start 52 
+S6 : Walking 1 view 2   -->   x_start 30, y_start 46 
+S6 : WalkTogether  view 2   -->   x_start 25, y_start 52 
+S6 : Greeting  view 2   -->   x_start 152, y_start 0 
+S6 : Purchases  view 3   -->   x_start 0, y_start 0 
+S6 : Sitting 1 view 0   -->   x_start 2, y_start 51 
+S6 : Waiting  view 0   -->   x_start 74, y_start 73 
+S6 : SittingDown  view 2   -->   x_start 147, y_start 32 
+S6 : Waiting 3 view 0   -->   x_start 37, y_start 59 
+S6 : WalkDog  view 0   -->   x_start 0, y_start 98 
+S6 : Discussion  view 2   -->   x_start 103, y_start 41 
+S6 : WalkDog 1 view 3   -->   x_start 0, y_start 76 
+S6 : Posing 2 view 2   -->   x_start 75, y_start 19 
+S6 : Phoning  view 0   -->   x_start 42, y_start 106 
+S6 : SittingDown  view 0   -->   x_start 77, y_start 99 
+S6 : Eating 1 view 1   -->   x_start 101, y_start 49 
+S6 : Sitting 2 view 1   -->   x_start 53, y_start 27 
+S6 : Posing  view 1   -->   x_start 83, y_start 28 
+S6 : Phoning 1 view 0   -->   x_start 65, y_start 104 
+S6 : Waiting 3 view 3   -->   x_start 0, y_start 0 
+S6 : WalkTogether 1 view 0   -->   x_start 30, y_start 121 
+S6 : Phoning 1 view 2   -->   x_start 97, y_start 43 
+S6 : Posing 2 view 0   -->   x_start 7, y_start 100 
+S6 : Purchases 1 view 1   -->   x_start 94, y_start 37 
+S6 : WalkDog 1 view 1   -->   x_start 49, y_start 61 
+S6 : Phoning  view 1   -->   x_start 62, y_start 55 
+S6 : Purchases 1 view 3   -->   x_start 0, y_start 21 
+S6 : WalkTogether  view 1   -->   x_start 34, y_start 60 
+S6 : Sitting 2 view 2   -->   x_start 147, y_start 0 
+S6 : Walking  view 3   -->   x_start 55, y_start 88 
+S6 : Waiting  view 2   -->   x_start 109, y_start 5 
+S6 : Purchases  view 1   -->   x_start 75, y_start 30 
+S6 : Posing  view 2   -->   x_start 100, y_start 23 
+S6 : Eating 2 view 2   -->   x_start 94, y_start 37 
+S7 : Posing 1 view 1   -->   x_start 92, y_start 6 
+S7 : SittingDown  view 3   -->   x_start 0, y_start 43 
+S7 : Walking 1 view 0   -->   x_start 7, y_start 161 
+S7 : Posing  view 0   -->   x_start 83, y_start 86 
+S7 : Smoking  view 3   -->   x_start 61, y_start 91 
+S7 : Eating 1 view 2   -->   x_start 109, y_start 51 
+S7 : Eating  view 2   -->   x_start 113, y_start 47 
+S7 : Phoning 2 view 2   -->   x_start 24, y_start 78 
+S7 : Phoning  view 2   -->   x_start 105, y_start 59 
+S7 : Photo  view 2   -->   x_start 135, y_start 31 
+S7 : Discussion 1 view 2   -->   x_start 123, y_start 0 
+S7 : Eating  view 3   -->   x_start 42, y_start 74 
+S7 : Sitting  view 0   -->   x_start 28, y_start 75 
+S7 : SittingDown 1 view 0   -->   x_start 0, y_start 117 
+S7 : Phoning 2 view 1   -->   x_start 77, y_start 80 
+S7 : Sitting 1 view 3   -->   x_start 187, y_start 57 
+S7 : Sitting 1 view 1   -->   x_start 16, y_start 61 
+S7 : Smoking  view 0   -->   x_start 18, y_start 141 
+S7 : Directions 1 view 2   -->   x_start 206, y_start 0 
+S7 : WalkTogether 1 view 1   -->   x_start 68, y_start 87 
+S7 : Photo 1 view 1   -->   x_start 46, y_start 8 
+S7 : Directions 1 view 1   -->   x_start 0, y_start 18 
+S7 : Greeting 1 view 0   -->   x_start 23, y_start 103 
+S7 : Greeting  view 0   -->   x_start 7, y_start 95 
+S7 : Waiting 2 view 1   -->   x_start 61, y_start 47 
+S7 : Greeting 1 view 2   -->   x_start 187, y_start 34 
+S7 : Phoning 2 view 0   -->   x_start 17, y_start 158 
+S7 : Walking 2 view 1   -->   x_start 34, y_start 84 
+S7 : Waiting 2 view 3   -->   x_start 20, y_start 32 
+S7 : Smoking 1 view 0   -->   x_start 18, y_start 160 
+S7 : Sitting 1 view 2   -->   x_start 155, y_start 0 
+S7 : Discussion 1 view 0   -->   x_start 21, y_start 72 
+S7 : Sitting  view 3   -->   x_start 0, y_start 12 
+S7 : Walking 2 view 2   -->   x_start 78, y_start 95 
+S7 : Walking 1 view 1   -->   x_start 60, y_start 84 
+S7 : Posing 1 view 3   -->   x_start 0, y_start 0 
+S7 : WalkDog  view 1   -->   x_start 97, y_start 79 
+S7 : Posing 1 view 2   -->   x_start 109, y_start 5 
+S7 : WalkTogether 1 view 2   -->   x_start 32, y_start 80 
+S7 : Waiting 1 view 1   -->   x_start 36, y_start 61 
+S7 : Purchases  view 2   -->   x_start 42, y_start 73 
+S7 : Discussion  view 0   -->   x_start 64, y_start 172 
+S7 : Photo  view 1   -->   x_start 61, y_start 56 
+S7 : SittingDown 1 view 2   -->   x_start 51, y_start 47 
+S7 : Purchases  view 0   -->   x_start 95, y_start 150 
+S7 : Waiting 2 view 2   -->   x_start 109, y_start 31 
+S7 : Waiting 1 view 2   -->   x_start 120, y_start 55 
+S7 : Photo  view 0   -->   x_start 1, y_start 102 
+S7 : WalkTogether  view 3   -->   x_start 57, y_start 131 
+S7 : Greeting  view 1   -->   x_start 0, y_start 62 
+S7 : Purchases 1 view 0   -->   x_start 92, y_start 173 
+S7 : Waiting 1 view 3   -->   x_start 6, y_start 54 
+S7 : Eating 1 view 0   -->   x_start 0, y_start 115 
+S7 : Discussion 1 view 1   -->   x_start 46, y_start 25 
+S7 : Posing  view 3   -->   x_start 0, y_start 0 
+S7 : Posing 1 view 0   -->   x_start 35, y_start 68 
+S7 : Smoking 1 view 3   -->   x_start 38, y_start 106 
+S7 : Directions  view 2   -->   x_start 206, y_start 0 
+S7 : Discussion 1 view 3   -->   x_start 29, y_start 17 
+S7 : Eating  view 1   -->   x_start 52, y_start 75 
+S7 : WalkDog  view 3   -->   x_start 45, y_start 78 
+S7 : Eating 1 view 3   -->   x_start 55, y_start 76 
+S7 : Directions  view 1   -->   x_start 0, y_start 14 
+S7 : Sitting  view 2   -->   x_start 144, y_start 7 
+S7 : Purchases 1 view 2   -->   x_start 0, y_start 92 
+S7 : Directions 1 view 0   -->   x_start 0, y_start 43 
+S7 : Directions  view 3   -->   x_start 6, y_start 0 
+S7 : Photo  view 3   -->   x_start 46, y_start 33 
+S7 : Directions 1 view 3   -->   x_start 19, y_start 6 
+S7 : Phoning  view 3   -->   x_start 28, y_start 112 
+S7 : Sitting  view 1   -->   x_start 42, y_start 31 
+S7 : Eating  view 0   -->   x_start 0, y_start 129 
+S7 : Smoking 1 view 1   -->   x_start 64, y_start 81 
+S7 : WalkDog  view 2   -->   x_start 24, y_start 71 
+S7 : WalkDog 1 view 2   -->   x_start 0, y_start 80 
+S7 : SittingDown 1 view 1   -->   x_start 128, y_start 58 
+S7 : WalkTogether 1 view 3   -->   x_start 54, y_start 133 
+S7 : Smoking  view 1   -->   x_start 77, y_start 78 
+S7 : Discussion  view 3   -->   x_start 0, y_start 60 
+S7 : SittingDown  view 1   -->   x_start 76, y_start 54 
+S7 : WalkDog 1 view 0   -->   x_start 21, y_start 156 
+S7 : Photo 1 view 2   -->   x_start 153, y_start 0 
+S7 : Walking 1 view 3   -->   x_start 42, y_start 89 
+S7 : WalkTogether  view 0   -->   x_start 37, y_start 163 
+S7 : Walking 2 view 3   -->   x_start 63, y_start 127 
+S7 : Waiting 2 view 0   -->   x_start 0, y_start 107 
+S7 : Directions  view 0   -->   x_start 7, y_start 46 
+S7 : Phoning 2 view 3   -->   x_start 70, y_start 82 
+S7 : Photo 1 view 0   -->   x_start 0, y_start 41 
+S7 : Greeting 1 view 1   -->   x_start 0, y_start 63 
+S7 : Greeting 1 view 3   -->   x_start 92, y_start 65 
+S7 : Walking 2 view 0   -->   x_start 25, y_start 159 
+S7 : Smoking 1 view 2   -->   x_start 53, y_start 75 
+S7 : Photo 1 view 3   -->   x_start 74, y_start 0 
+S7 : Discussion  view 1   -->   x_start 24, y_start 59 
+S7 : Greeting  view 3   -->   x_start 65, y_start 93 
+S7 : SittingDown 1 view 3   -->   x_start 54, y_start 31 
+S7 : Waiting 1 view 0   -->   x_start 14, y_start 136 
+S7 : Smoking  view 2   -->   x_start 83, y_start 63 
+S7 : Walking 1 view 2   -->   x_start 52, y_start 79 
+S7 : WalkTogether  view 2   -->   x_start 41, y_start 87 
+S7 : Greeting  view 2   -->   x_start 185, y_start 30 
+S7 : Purchases  view 3   -->   x_start 0, y_start 0 
+S7 : Sitting 1 view 0   -->   x_start 0, y_start 53 
+S7 : SittingDown  view 2   -->   x_start 132, y_start 49 
+S7 : WalkDog  view 0   -->   x_start 0, y_start 150 
+S7 : Discussion  view 2   -->   x_start 120, y_start 83 
+S7 : WalkDog 1 view 3   -->   x_start 37, y_start 72 
+S7 : Phoning  view 0   -->   x_start 0, y_start 146 
+S7 : SittingDown  view 0   -->   x_start 86, y_start 115 
+S7 : Eating 1 view 1   -->   x_start 51, y_start 73 
+S7 : Posing  view 1   -->   x_start 45, y_start 24 
+S7 : WalkTogether 1 view 0   -->   x_start 26, y_start 158 
+S7 : Purchases 1 view 1   -->   x_start 127, y_start 22 
+S7 : WalkDog 1 view 1   -->   x_start 85, y_start 66 
+S7 : Phoning  view 1   -->   x_start 50, y_start 77 
+S7 : Purchases 1 view 3   -->   x_start 0, y_start 0 
+S7 : WalkTogether  view 1   -->   x_start 55, y_start 89 
+S7 : Purchases  view 1   -->   x_start 99, y_start 24 
+S7 : Posing  view 2   -->   x_start 157, y_start 17 
+S8 : Posing 1 view 1   -->   x_start 65, y_start 11 
+S8 : SittingDown  view 3   -->   x_start 19, y_start 19 
+S8 : Walking 1 view 0   -->   x_start 0, y_start 157 
+S8 : Posing  view 0   -->   x_start 20, y_start 60 
+S8 : Smoking  view 3   -->   x_start 61, y_start 68 
+S8 : Eating 1 view 2   -->   x_start 0, y_start 73 
+S8 : Eating  view 2   -->   x_start 0, y_start 66 
+S8 : Phoning  view 2   -->   x_start 0, y_start 68 
+S8 : Photo  view 2   -->   x_start 52, y_start 7 
+S8 : Discussion 1 view 2   -->   x_start 114, y_start 5 
+S8 : Eating  view 3   -->   x_start 88, y_start 29 
+S8 : Sitting  view 0   -->   x_start 19, y_start 76 
+S8 : SittingDown 1 view 0   -->   x_start 33, y_start 123 
+S8 : Sitting 1 view 3   -->   x_start 34, y_start 0 
+S8 : Sitting 1 view 1   -->   x_start 58, y_start 20 
+S8 : Phoning 1 view 1   -->   x_start 73, y_start 72 
+S8 : Smoking  view 0   -->   x_start 17, y_start 142 
+S8 : Walking  view 1   -->   x_start 87, y_start 71 
+S8 : Directions 1 view 2   -->   x_start 46, y_start 13 
+S8 : WalkTogether 1 view 1   -->   x_start 88, y_start 61 
+S8 : Photo 1 view 1   -->   x_start 57, y_start 21 
+S8 : Directions 1 view 1   -->   x_start 97, y_start 6 
+S8 : Greeting 1 view 0   -->   x_start 0, y_start 88 
+S8 : Greeting  view 0   -->   x_start 0, y_start 83 
+S8 : Greeting 1 view 2   -->   x_start 8, y_start 17 
+S8 : WalkTogether 2 view 3   -->   x_start 89, y_start 49 
+S8 : Walking  view 0   -->   x_start 0, y_start 161 
+S8 : Smoking 1 view 0   -->   x_start 0, y_start 137 
+S8 : Sitting 1 view 2   -->   x_start 87, y_start 4 
+S8 : Discussion 1 view 0   -->   x_start 6, y_start 76 
+S8 : Sitting  view 3   -->   x_start 33, y_start 0 
+S8 : Walking 1 view 1   -->   x_start 108, y_start 66 
+S8 : Posing 1 view 3   -->   x_start 9, y_start 0 
+S8 : WalkDog  view 1   -->   x_start 91, y_start 60 
+S8 : Posing 1 view 2   -->   x_start 82, y_start 8 
+S8 : Waiting  view 3   -->   x_start 0, y_start 0 
+S8 : WalkTogether 1 view 2   -->   x_start 0, y_start 66 
+S8 : Waiting 1 view 1   -->   x_start 70, y_start 9 
+S8 : Purchases  view 2   -->   x_start 10, y_start 27 
+S8 : Discussion  view 0   -->   x_start 21, y_start 93 
+S8 : Photo  view 1   -->   x_start 75, y_start 27 
+S8 : SittingDown 1 view 2   -->   x_start 71, y_start 47 
+S8 : WalkTogether 2 view 1   -->   x_start 103, y_start 59 
+S8 : Purchases  view 0   -->   x_start 41, y_start 105 
+S8 : Waiting 1 view 2   -->   x_start 83, y_start 12 
+S8 : Photo  view 0   -->   x_start 0, y_start 86 
+S8 : Waiting  view 1   -->   x_start 68, y_start 8 
+S8 : Greeting  view 1   -->   x_start 90, y_start 44 
+S8 : Purchases 1 view 0   -->   x_start 44, y_start 105 
+S8 : Waiting 1 view 3   -->   x_start 0, y_start 0 
+S8 : Eating 1 view 0   -->   x_start 14, y_start 158 
+S8 : Discussion 1 view 1   -->   x_start 43, y_start 19 
+S8 : Posing  view 3   -->   x_start 12, y_start 0 
+S8 : Posing 1 view 0   -->   x_start 28, y_start 81 
+S8 : Phoning 1 view 3   -->   x_start 40, y_start 66 
+S8 : Smoking 1 view 3   -->   x_start 62, y_start 35 
+S8 : Directions  view 2   -->   x_start 50, y_start 14 
+S8 : Discussion 1 view 3   -->   x_start 27, y_start 0 
+S8 : Eating  view 1   -->   x_start 129, y_start 52 
+S8 : WalkDog  view 3   -->   x_start 142, y_start 55 
+S8 : Eating 1 view 3   -->   x_start 59, y_start 23 
+S8 : Directions  view 1   -->   x_start 94, y_start 7 
+S8 : Sitting  view 2   -->   x_start 89, y_start 3 
+S8 : Purchases 1 view 2   -->   x_start 10, y_start 27 
+S8 : Directions 1 view 0   -->   x_start 32, y_start 89 
+S8 : Directions  view 3   -->   x_start 0, y_start 0 
+S8 : Photo  view 3   -->   x_start 57, y_start 0 
+S8 : Directions 1 view 3   -->   x_start 4, y_start 0 
+S8 : Phoning  view 3   -->   x_start 96, y_start 75 
+S8 : Sitting  view 1   -->   x_start 58, y_start 19 
+S8 : Eating  view 0   -->   x_start 0, y_start 154 
+S8 : Smoking 1 view 1   -->   x_start 82, y_start 51 
+S8 : WalkDog  view 2   -->   x_start 0, y_start 58 
+S8 : WalkDog 1 view 2   -->   x_start 0, y_start 44 
+S8 : SittingDown 1 view 1   -->   x_start 66, y_start 42 
+S8 : WalkTogether 1 view 3   -->   x_start 93, y_start 56 
+S8 : Smoking  view 1   -->   x_start 64, y_start 55 
+S8 : Discussion  view 3   -->   x_start 23, y_start 0 
+S8 : Walking  view 2   -->   x_start 0, y_start 72 
+S8 : SittingDown  view 1   -->   x_start 88, y_start 42 
+S8 : WalkDog 1 view 0   -->   x_start 29, y_start 129 
+S8 : Photo 1 view 2   -->   x_start 87, y_start 11 
+S8 : Walking 1 view 3   -->   x_start 40, y_start 65 
+S8 : Directions  view 0   -->   x_start 37, y_start 90 
+S8 : Photo 1 view 0   -->   x_start 15, y_start 83 
+S8 : Greeting 1 view 1   -->   x_start 81, y_start 53 
+S8 : Greeting 1 view 3   -->   x_start 173, y_start 46 
+S8 : Smoking 1 view 2   -->   x_start 9, y_start 54 
+S8 : Photo 1 view 3   -->   x_start 18, y_start 0 
+S8 : Discussion  view 1   -->   x_start 84, y_start 14 
+S8 : Greeting  view 3   -->   x_start 157, y_start 36 
+S8 : SittingDown 1 view 3   -->   x_start 4, y_start 23 
+S8 : Waiting 1 view 0   -->   x_start 54, y_start 85 
+S8 : Smoking  view 2   -->   x_start 7, y_start 61 
+S8 : Walking 1 view 2   -->   x_start 0, y_start 69 
+S8 : Greeting  view 2   -->   x_start 49, y_start 7 
+S8 : Purchases  view 3   -->   x_start 37, y_start 0 
+S8 : Sitting 1 view 0   -->   x_start 18, y_start 76 
+S8 : Waiting  view 0   -->   x_start 53, y_start 83 
+S8 : SittingDown  view 2   -->   x_start 60, y_start 40 
+S8 : WalkDog  view 0   -->   x_start 5, y_start 152 
+S8 : Discussion  view 2   -->   x_start 61, y_start 20 
+S8 : WalkDog 1 view 3   -->   x_start 94, y_start 59 
+S8 : Phoning  view 0   -->   x_start 0, y_start 155 
+S8 : SittingDown  view 0   -->   x_start 14, y_start 117 
+S8 : Eating 1 view 1   -->   x_start 94, y_start 44 
+S8 : Posing  view 1   -->   x_start 85, y_start 0 
+S8 : Phoning 1 view 0   -->   x_start 13, y_start 155 
+S8 : WalkTogether 1 view 0   -->   x_start 2, y_start 153 
+S8 : Phoning 1 view 2   -->   x_start 0, y_start 76 
+S8 : WalkTogether 2 view 2   -->   x_start 0, y_start 67 
+S8 : WalkTogether 2 view 0   -->   x_start 0, y_start 156 
+S8 : Purchases 1 view 1   -->   x_start 105, y_start 21 
+S8 : WalkDog 1 view 1   -->   x_start 61, y_start 59 
+S8 : Phoning  view 1   -->   x_start 80, y_start 67 
+S8 : Purchases 1 view 3   -->   x_start 45, y_start 0 
+S8 : Walking  view 3   -->   x_start 89, y_start 68 
+S8 : Waiting  view 2   -->   x_start 85, y_start 11 
+S8 : Purchases  view 1   -->   x_start 106, y_start 25 
+S8 : Posing  view 2   -->   x_start 70, y_start 0 
+S9 : Posing 1 view 1   -->   x_start 46, y_start 37 
+S9 : SittingDown  view 3   -->   x_start 65, y_start 59 
+S9 : Walking 1 view 0   -->   x_start 8, y_start 116 
+S9 : Discussion 2 view 3   -->   x_start 101, y_start 22 
+S9 : Posing  view 0   -->   x_start 0, y_start 65 
+S9 : Smoking  view 3   -->   x_start 51, y_start 65 
+S9 : Eating 1 view 2   -->   x_start 31, y_start 57 
+S9 : Eating  view 2   -->   x_start 28, y_start 58 
+S9 : Phoning  view 2   -->   x_start 22, y_start 47 
+S9 : Photo  view 2   -->   x_start 84, y_start 21 
+S9 : Discussion 1 view 2   -->   x_start 0, y_start 65 
+S9 : Eating  view 3   -->   x_start 112, y_start 67 
+S9 : Sitting  view 0   -->   x_start 0, y_start 48 
+S9 : SittingDown 1 view 0   -->   x_start 0, y_start 54 
+S9 : Sitting 1 view 3   -->   x_start 30, y_start 1 
+S9 : Sitting 1 view 1   -->   x_start 19, y_start 28 
+S9 : Phoning 1 view 1   -->   x_start 86, y_start 62 
+S9 : Smoking  view 0   -->   x_start 0, y_start 105 
+S9 : Walking  view 1   -->   x_start 60, y_start 77 
+S9 : Directions 1 view 2   -->   x_start 103, y_start 1 
+S9 : WalkTogether 1 view 1   -->   x_start 72, y_start 63 
+S9 : Photo 1 view 1   -->   x_start 21, y_start 52 
+S9 : Directions 1 view 1   -->   x_start 41, y_start 23 
+S9 : Greeting 1 view 0   -->   x_start 0, y_start 94 
+S9 : Greeting  view 0   -->   x_start 0, y_start 79 
+S9 : Greeting 1 view 2   -->   x_start 11, y_start 37 
+S9 : Walking  view 0   -->   x_start 0, y_start 136 
+S9 : Smoking 1 view 0   -->   x_start 38, y_start 108 
+S9 : Sitting 1 view 2   -->   x_start 150, y_start 0 
+S9 : Discussion 1 view 0   -->   x_start 0, y_start 144 
+S9 : Sitting  view 3   -->   x_start 22, y_start 14 
+S9 : Discussion 2 view 2   -->   x_start 18, y_start 64 
+S9 : Walking 1 view 1   -->   x_start 48, y_start 73 
+S9 : Posing 1 view 3   -->   x_start 82, y_start 17 
+S9 : WalkDog  view 1   -->   x_start 75, y_start 56 
+S9 : Posing 1 view 2   -->   x_start 103, y_start 24 
+S9 : Waiting  view 3   -->   x_start 84, y_start 50 
+S9 : WalkTogether 1 view 2   -->   x_start 14, y_start 61 
+S9 : Waiting 1 view 1   -->   x_start 0, y_start 64 
+S9 : Purchases  view 2   -->   x_start 0, y_start 59 
+S9 : Discussion 2 view 0   -->   x_start 0, y_start 139 
+S9 : Photo  view 1   -->   x_start 23, y_start 46 
+S9 : SittingDown 1 view 2   -->   x_start 112, y_start 0 
+S9 : Purchases  view 0   -->   x_start 58, y_start 118 
+S9 : Waiting 1 view 2   -->   x_start 61, y_start 44 
+S9 : Photo  view 0   -->   x_start 0, y_start 73 
+S9 : Waiting  view 1   -->   x_start 26, y_start 58 
+S9 : WalkTogether  view 3   -->   x_start 64, y_start 60 
+S9 : Greeting  view 1   -->   x_start 124, y_start 20 
+S9 : Purchases 1 view 0   -->   x_start 47, y_start 119 
+S9 : Waiting 1 view 3   -->   x_start 101, y_start 67 
+S9 : Eating 1 view 0   -->   x_start 26, y_start 108 
+S9 : Discussion 1 view 1   -->   x_start 104, y_start 37 
+S9 : Posing  view 3   -->   x_start 42, y_start 23 
+S9 : Posing 1 view 0   -->   x_start 0, y_start 71 
+S9 : Phoning 1 view 3   -->   x_start 46, y_start 48 
+S9 : Smoking 1 view 3   -->   x_start 0, y_start 51 
+S9 : Directions  view 2   -->   x_start 104, y_start 22 
+S9 : Discussion 1 view 3   -->   x_start 66, y_start 0 
+S9 : Eating  view 1   -->   x_start 68, y_start 72 
+S9 : WalkDog  view 3   -->   x_start 33, y_start 39 
+S9 : Eating 1 view 3   -->   x_start 50, y_start 55 
+S9 : Directions  view 1   -->   x_start 43, y_start 33 
+S9 : Sitting  view 2   -->   x_start 151, y_start 0 
+S9 : Purchases 1 view 2   -->   x_start 5, y_start 57 
+S9 : Directions 1 view 0   -->   x_start 0, y_start 62 
+S9 : Directions  view 3   -->   x_start 77, y_start 9 
+S9 : Photo  view 3   -->   x_start 135, y_start 33 
+S9 : Directions 1 view 3   -->   x_start 94, y_start 0 
+S9 : Phoning  view 3   -->   x_start 61, y_start 48 
+S9 : Discussion 2 view 1   -->   x_start 79, y_start 43 
+S9 : Sitting  view 1   -->   x_start 17, y_start 35 
+S9 : Eating  view 0   -->   x_start 7, y_start 117 
+S9 : Smoking 1 view 1   -->   x_start 0, y_start 58 
+S9 : WalkDog  view 2   -->   x_start 15, y_start 56 
+S9 : WalkDog 1 view 2   -->   x_start 29, y_start 80 
+S9 : SittingDown 1 view 1   -->   x_start 27, y_start 67 
+S9 : WalkTogether 1 view 3   -->   x_start 41, y_start 59 
+S9 : Smoking  view 1   -->   x_start 43, y_start 66 
+S9 : Walking  view 2   -->   x_start 0, y_start 69 
+S9 : SittingDown  view 1   -->   x_start 0, y_start 63 
+S9 : WalkDog 1 view 0   -->   x_start 28, y_start 132 
+S9 : Photo 1 view 2   -->   x_start 71, y_start 40 
+S9 : Walking 1 view 3   -->   x_start 57, y_start 81 
+S9 : WalkTogether  view 0   -->   x_start 7, y_start 113 
+S9 : Directions  view 0   -->   x_start 0, y_start 70 
+S9 : Photo 1 view 0   -->   x_start 0, y_start 97 
+S9 : Greeting 1 view 1   -->   x_start 92, y_start 37 
+S9 : Greeting 1 view 3   -->   x_start 91, y_start 8 
+S9 : Smoking 1 view 2   -->   x_start 102, y_start 52 
+S9 : Photo 1 view 3   -->   x_start 95, y_start 50 
+S9 : Greeting  view 3   -->   x_start 154, y_start 0 
+S9 : SittingDown 1 view 3   -->   x_start 127, y_start 71 
+S9 : Waiting 1 view 0   -->   x_start 0, y_start 91 
+S9 : Smoking  view 2   -->   x_start 81, y_start 49 
+S9 : Walking 1 view 2   -->   x_start 27, y_start 57 
+S9 : WalkTogether  view 2   -->   x_start 19, y_start 58 
+S9 : Greeting  view 2   -->   x_start 0, y_start 16 
+S9 : Purchases  view 3   -->   x_start 0, y_start 0 
+S9 : Sitting 1 view 0   -->   x_start 0, y_start 49 
+S9 : Waiting  view 0   -->   x_start 3, y_start 112 
+S9 : SittingDown  view 2   -->   x_start 143, y_start 4 
+S9 : WalkDog  view 0   -->   x_start 20, y_start 121 
+S9 : WalkDog 1 view 3   -->   x_start 17, y_start 63 
+S9 : Phoning  view 0   -->   x_start 19, y_start 106 
+S9 : SittingDown  view 0   -->   x_start 0, y_start 60 
+S9 : Eating 1 view 1   -->   x_start 52, y_start 61 
+S9 : Posing  view 1   -->   x_start 66, y_start 46 
+S9 : Phoning 1 view 0   -->   x_start 8, y_start 101 
+S9 : WalkTogether 1 view 0   -->   x_start 9, y_start 123 
+S9 : Phoning 1 view 2   -->   x_start 13, y_start 59 
+S9 : Purchases 1 view 1   -->   x_start 48, y_start 39 
+S9 : WalkDog 1 view 1   -->   x_start 43, y_start 62 
+S9 : Phoning  view 1   -->   x_start 68, y_start 56 
+S9 : Purchases 1 view 3   -->   x_start 20, y_start 24 
+S9 : WalkTogether  view 1   -->   x_start 67, y_start 59 
+S9 : Walking  view 3   -->   x_start 75, y_start 84 
+S9 : Waiting  view 2   -->   x_start 34, y_start 55 
+S9 : Purchases  view 1   -->   x_start 90, y_start 26 
+S9 : Posing  view 2   -->   x_start 100, y_start 16 

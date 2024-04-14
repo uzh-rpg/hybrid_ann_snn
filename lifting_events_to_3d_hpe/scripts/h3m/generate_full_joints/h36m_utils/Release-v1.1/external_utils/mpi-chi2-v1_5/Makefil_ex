@@ -1,0 +1,19 @@
+CC = gcc-4.2
+MATLABDIR=/home/joao/matlab
+INCLUDES=-I$(MATLABDIR)/extern/include
+LDIRS= -L$(MATLABDIR)/bin/glnxa64
+EXE_TARGETS = segm_overlap_mex.mexa64
+
+all: $(EXE_TARGETS) 
+
+overlap.o: overlap.c
+	$(CC) -D__MAIN__ -O3  -fPIC -c $(INCLUDES) -fopenmp -o overlap.o overlap.c
+
+segm_overlap_mex.o: segm_overlap_mex.c
+	$(CC) -O3 -c $(INCLUDES)  -o segm_overlap_mex.o segm_overlap_mex.c -fPIC
+
+segm_overlap_mex.mexa64: segm_overlap_mex.o overlap.o
+	$(CC) segm_overlap_mex.o  $(LDIRS) -lmex -fopenmp  -shared -o segm_overlap_mex.mexa64 overlap.o
+
+clean:
+	rm -f *.o $(EXE_TARGETS) $(LIB_TARGETS)

@@ -1,0 +1,14 @@
+# @package _group_
+cls: experimenting.dataset.core.HumanCore
+params:
+  name: h3m_voxelgrid
+  data_dir: /data/gscarpellini/dataset/human3.6m/voxel_grid
+  joints_path: ${dataset.params.data_dir}/gt.npz
+  n_channels: 4
+  partition: cross-subject
+  movs:
+  test_cams: [3]
+  train_cams: [0,1,2,3]
+  test_subjects: [9, 11]
+      
+      

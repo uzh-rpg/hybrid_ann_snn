@@ -1,0 +1,120 @@
+function obj = rf_init( kernel_name, kernel_param, dim, Napp, options)
+%RF_INIT initialize the kernel with the right parameters and sample in
+%order to get the fourier features
+% NOTE: Usually you should call the wrapper function InitExplicitKernel for 
+% default values and correct kernel mappings.
+%
+% kernel_name : supported kernel i.e. 'gaussian', 'laplace', 'chi2',
+% 'intersection'
+% kernel_param : parameter for the kernel
+% dim : dimensionality of the features
+% Napp : number of samples for the approximation
+% options: options. Including:
+%         options.method: 'sampling','signals' or 'nystrom'.
+%                         'signals' for [Vedaldi and Zisserman 2012]-type 
+%                                   fixed interval sampling. 
+%                         'sampling' for [Rahimi and Recht 2007] type of 
+%                                    Monte Carlo sampling.
+%                         'nystrom' for Nystrom sampling (user has to
+%                                   specify the anchors as options.omega). For Nystrom, PCA 
+%                                   is only performed if you call rf_pca_featurize.
+%                                   If rf_featurize is called, then the program
+%                                   simply evaluates the kernel between examples 
+%                                   and anchor points.
+%         options.Nperdim: Number of samples per dimension for additive
+%                          kernels.
+%         options.period: The parameter for [Vedaldi and Zisserman
+%                         2012]-type fixed interval sampling.
+%         options.omega: User-supplied anchors for using the Nystrom method 
+%                        (Only useful for the Nystrom method ).
+%
+% copyright (c) 2010-2012
+% Fuxin Li - fli@cc.gatech.edu
+% Catalin Ionescu - catalin.ionescu@ins.uni-bonn.de
+% Cristian Sminchisescu - cristian.sminchisescu@ins.uni-bonn.de
+
+if ~isfield(options,'method')
+    options.method = 'sampling';
+end
+
+obj = options;
+obj.name = kernel_name;
+obj.dim = dim;
+obj.kernel_param = kernel_param;
+obj.Napp = Napp;
+obj.debug = false;
+
+switch kernel_name
+  case {'gaussian','exp_hel','rbf'}
+    obj.distribution = 'gaussian';
+    obj.coeff = 1/sqrt(Napp);
+  
+  case 'laplace'
+        obj.distribution = 'cauchy';
+        obj.coeff = 1/sqrt(Napp);
+  % these are done with fourier analysis 
+  
+  case {'chi2','chi2_skewed'}
+    switch options.method
+      case 'signals'
+%         obj.distribution = 'period';
+%         obj.Nperdim = 20;
+%         obj.period = 6e-1; % this can be optimized
+        obj.distribution = 'period';
+      case 'sampling'
+        obj.distribution = 'sech';
+        obj.gn = 1;
+      case 'chebyshev'
+        obj.distribution = 'chebyshev';
+      otherwise
+        error('Unknown sampling method.');
+    end
+    
+  case 'intersection'
+    switch options.method
+      case 'signals'
+        obj.distribution = 'period';
+      case 'sampling'
+        obj.distribution = 'cauchy';
+        obj.kernel_param = 0.5;
+      otherwise
+          error('Unknown sampling method.');
+    end
+  case 'exp_chi2'
+    switch options.method
+      case 'signals'
+        obj.distribution = 'exp_chi2';
+      case 'chebyshev'
+        obj.distribution = 'exp_chi2';
+      case 'sampling'
+        error('Not yet implemented');
+	  case 'nystrom'
+		% Use user-supplied anchors and do not do sampling.
+        if ~isfield(obj,'omega')
+            error('Cannot do Nystrom without specifying the anchors as omega!');
+        end
+		obj.Napp = size(obj.omega,2);
+        obj.final_dim = size(obj.omega,2);
+		return;
+      otherwise
+        error('Unknown method!');
+    end
+  case 'jensen_shannon'
+    if ~strcmp(options.method,'signals')
+        error('We have not yet developed the sampling for Jensen-Shannon kernel.');
+    end
+    obj.distribution = 'period';
+  otherwise
+    error('Unknown kernel.');
+end
+
+obj = rf_sample(obj);
+obj.beta = rand(Napp,1); % 
+% These are fixed dimension ones
+if (strcmp(options.method,'signals') || strcmp(options.method,'chebyshev')) && (~isfield(obj,'name') || ~strcmp(obj.name,'exp_chi2'))
+    obj.final_dim = obj.Nperdim * obj.dim;
+else
+    obj.final_dim = Napp;
+end
+end
+

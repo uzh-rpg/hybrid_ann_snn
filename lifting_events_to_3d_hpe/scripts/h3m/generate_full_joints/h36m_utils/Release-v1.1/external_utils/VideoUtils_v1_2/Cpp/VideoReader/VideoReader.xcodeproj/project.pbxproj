@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4904E390126EDC06008629C6 /* mexVideoReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4904E38F126EDC06008629C6 /* mexVideoReader.h */; };
+		4904E39B126EEBD8008629C6 /* VideoReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4904E399126EEBD8008629C6 /* VideoReader.cpp */; };
+		4904E39C126EEBD8008629C6 /* VideoReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4904E39A126EEBD8008629C6 /* VideoReader.h */; };
+		492391B31281C6AC0087F49F /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 492391B21281C6AC0087F49F /* libbz2.dylib */; };
+		492391B51281C6C30087F49F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 492391B41281C6C30087F49F /* libz.dylib */; };
+		492391B71281C6D20087F49F /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 492391B61281C6D20087F49F /* libavcodec.a */; };
+		492391B91281C6D20087F49F /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 492391B81281C6D20087F49F /* libavdevice.a */; };
+		492391BB1281C6D20087F49F /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 492391BA1281C6D20087F49F /* libavformat.a */; };
+		492391BD1281C6D20087F49F /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 492391BC1281C6D20087F49F /* libavutil.a */; };
+		492391BF1281C6D20087F49F /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 492391BE1281C6D20087F49F /* libswscale.a */; };
+		494AD897126DFBC50097D692 /* mexVideoReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494AD894126DFBC50097D692 /* mexVideoReader.cpp */; };
+		498D9DB2126F4160004CB983 /* VideoReaderDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 498D9DB1126F4160004CB983 /* VideoReaderDefinitions.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4904E38F126EDC06008629C6 /* mexVideoReader.h */ = {isa = PBXFileReference; fileEncoding = 4; path = mexVideoReader.h; sourceTree = "<group>"; };
+		4904E399126EEBD8008629C6 /* VideoReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VideoReader.cpp; sourceTree = "<group>"; };
+		4904E39A126EEBD8008629C6 /* VideoReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoReader.h; sourceTree = "<group>"; };
+		492391B21281C6AC0087F49F /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
+		492391B41281C6C30087F49F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		492391B61281C6D20087F49F /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = "/Users/marc/Z-Repo/SVN/MATLAB/Util/VideoUtils/Cpp/3rdParty/Ffmpeg/bin/x64/libavcodec.a"; sourceTree = "<absolute>"; };
+		492391B81281C6D20087F49F /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavdevice.a; path = "/Users/marc/Z-Repo/SVN/MATLAB/Util/VideoUtils/Cpp/3rdParty/Ffmpeg/bin/x64/libavdevice.a"; sourceTree = "<absolute>"; };
+		492391BA1281C6D20087F49F /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = "/Users/marc/Z-Repo/SVN/MATLAB/Util/VideoUtils/Cpp/3rdParty/Ffmpeg/bin/x64/libavformat.a"; sourceTree = "<absolute>"; };
+		492391BC1281C6D20087F49F /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = "/Users/marc/Z-Repo/SVN/MATLAB/Util/VideoUtils/Cpp/3rdParty/Ffmpeg/bin/x64/libavutil.a"; sourceTree = "<absolute>"; };
+		492391BE1281C6D20087F49F /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = "/Users/marc/Z-Repo/SVN/MATLAB/Util/VideoUtils/Cpp/3rdParty/Ffmpeg/bin/x64/libswscale.a"; sourceTree = "<absolute>"; };
+		494AD894126DFBC50097D692 /* mexVideoReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mexVideoReader.cpp; sourceTree = "<group>"; };
+		498D9DB1126F4160004CB983 /* VideoReaderDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoReaderDefinitions.h; sourceTree = "<group>"; };
+		498D9DB3126F4160004CB983 /* mexVideoReader.mexmaci64 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = mexVideoReader.mexmaci64; path = mexVideoReader_d.mexmaci64; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4904E07E126DF6D400B879DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492391B31281C6AC0087F49F /* libbz2.dylib in Frameworks */,
+				492391B51281C6C30087F49F /* libz.dylib in Frameworks */,
+				492391B71281C6D20087F49F /* libavcodec.a in Frameworks */,
+				492391B91281C6D20087F49F /* libavdevice.a in Frameworks */,
+				492391BB1281C6D20087F49F /* libavformat.a in Frameworks */,
+				492391BD1281C6D20087F49F /* libavutil.a in Frameworks */,
+				492391BF1281C6D20087F49F /* libswscale.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4904E075126DF6D400B879DB = {
+			isa = PBXGroup;
+			children = (
+				4904E38E126ED9CA008629C6 /* Libs */,
+				4904E07C126DF6D400B879DB /* Source */,
+				4904E082126DF6D400B879DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4904E07C126DF6D400B879DB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4904E399126EEBD8008629C6 /* VideoReader.cpp */,
+				4904E39A126EEBD8008629C6 /* VideoReader.h */,
+				498D9DB1126F4160004CB983 /* VideoReaderDefinitions.h */,
+				4904E38F126EDC06008629C6 /* mexVideoReader.h */,
+				494AD894126DFBC50097D692 /* mexVideoReader.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4904E082126DF6D400B879DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				498D9DB3126F4160004CB983 /* mexVideoReader.mexmaci64 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4904E38E126ED9CA008629C6 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				492391B21281C6AC0087F49F /* libbz2.dylib */,
+				492391B41281C6C30087F49F /* libz.dylib */,
+				492391B61281C6D20087F49F /* libavcodec.a */,
+				492391B81281C6D20087F49F /* libavdevice.a */,
+				492391BA1281C6D20087F49F /* libavformat.a */,
+				492391BC1281C6D20087F49F /* libavutil.a */,
+				492391BE1281C6D20087F49F /* libswscale.a */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4904E07F126DF6D400B879DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4904E390126EDC06008629C6 /* mexVideoReader.h in Headers */,
+				4904E39C126EEBD8008629C6 /* VideoReader.h in Headers */,
+				498D9DB2126F4160004CB983 /* VideoReaderDefinitions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4904E080126DF6D400B879DB /* VideoReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4904E085126DF6D400B879DB /* Build configuration list for PBXNativeTarget "VideoReader" */;
+			buildPhases = (
+				4904E07D126DF6D400B879DB /* Sources */,
+				4904E07E126DF6D400B879DB /* Frameworks */,
+				4904E07F126DF6D400B879DB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoReader;
+			productName = VideoReader;
+			productReference = 498D9DB3126F4160004CB983 /* mexVideoReader.mexmaci64 */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4904E077126DF6D400B879DB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4904E07A126DF6D400B879DB /* Build configuration list for PBXProject "VideoReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4904E075126DF6D400B879DB;
+			productRefGroup = 4904E082126DF6D400B879DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4904E080126DF6D400B879DB /* VideoReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4904E07D126DF6D400B879DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494AD897126DFBC50097D692 /* mexVideoReader.cpp in Sources */,
+				4904E39B126EEBD8008629C6 /* VideoReader.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4904E083126DF6D400B879DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Applications/MATLAB_R2010b.app/extern/include/,
+					./ffmpeg/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		4904E084126DF6D400B879DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Applications/MATLAB_R2010b.app/extern/include/,
+					./ffmpeg/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		4904E086126DF6D400B879DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../../Bin/;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = mexmaci64;
+				EXECUTABLE_PREFIX = mex;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = (
+					/Applications/MATLAB_R2010b.app/extern/include/,
+					../3rdParty/Ffmpeg/src,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				LIBRARY_SEARCH_PATHS = (
+					/Applications/MATLAB_R2010b.app/bin/maci64,
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../3rdParty/Ffmpeg/bin/x64\"",
+				);
+				MACH_O_TYPE = mh_bundle;
+				OTHER_LDFLAGS = (
+					"-lmex",
+					"-lmx",
+				);
+				PRODUCT_NAME = VideoReader_d;
+			};
+			name = Debug;
+		};
+		4904E087126DF6D400B879DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../../Bin/;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = mexmaci64;
+				EXECUTABLE_PREFIX = mex;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = (
+					/Applications/MATLAB_R2010b.app/extern/include/,
+					../3rdParty/Ffmpeg/src,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					/Applications/MATLAB_R2010b.app/bin/maci64,
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../3rdParty/Ffmpeg/bin/x64\"",
+				);
+				MACH_O_TYPE = mh_bundle;
+				OTHER_LDFLAGS = (
+					"-lmex",
+					"-lmx",
+				);
+				PRODUCT_NAME = VideoReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4904E07A126DF6D400B879DB /* Build configuration list for PBXProject "VideoReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4904E083126DF6D400B879DB /* Debug */,
+				4904E084126DF6D400B879DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4904E085126DF6D400B879DB /* Build configuration list for PBXNativeTarget "VideoReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4904E086126DF6D400B879DB /* Debug */,
+				4904E087126DF6D400B879DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4904E077126DF6D400B879DB /* Project object */;
+}

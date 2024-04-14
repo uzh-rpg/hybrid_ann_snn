@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4906BAFF12815EBB00D06846 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4906BAFE12815EBB00D06846 /* libbz2.dylib */; };
+		4906BB0112815ED300D06846 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4906BB0012815ED300D06846 /* libavcodec.a */; };
+		4906BB0312815ED300D06846 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4906BB0212815ED300D06846 /* libavdevice.a */; };
+		4906BB0512815ED300D06846 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4906BB0412815ED300D06846 /* libavformat.a */; };
+		4906BB0712815ED300D06846 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4906BB0612815ED300D06846 /* libavutil.a */; };
+		4906BB0912815ED300D06846 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4906BB0812815ED300D06846 /* libswscale.a */; };
+		4906BB1B12815F6400D06846 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4906BB1A12815F6400D06846 /* libz.dylib */; };
+		499F60C7127ED50F004C16AC /* mexVideoWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 499F60C2127ED50F004C16AC /* mexVideoWriter.cpp */; };
+		499F60C8127ED50F004C16AC /* mexVideoWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 499F60C3127ED50F004C16AC /* mexVideoWriter.h */; };
+		499F60C9127ED50F004C16AC /* VideoWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 499F60C4127ED50F004C16AC /* VideoWriter.cpp */; };
+		499F60CA127ED50F004C16AC /* VideoWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 499F60C5127ED50F004C16AC /* VideoWriter.h */; };
+		499F60CB127ED50F004C16AC /* VideoWriterDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 499F60C6127ED50F004C16AC /* VideoWriterDefinitions.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4906BAFE12815EBB00D06846 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
+		4906BB0012815ED300D06846 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = "/Users/marc/Z-Repo/SVN/MATLAB/Util/VideoUtils/Cpp/3rdParty/Ffmpeg/bin/x64/libavcodec.a"; sourceTree = "<absolute>"; };
+		4906BB0212815ED300D06846 /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavdevice.a; path = "/Users/marc/Z-Repo/SVN/MATLAB/Util/VideoUtils/Cpp/3rdParty/Ffmpeg/bin/x64/libavdevice.a"; sourceTree = "<absolute>"; };
+		4906BB0412815ED300D06846 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = "/Users/marc/Z-Repo/SVN/MATLAB/Util/VideoUtils/Cpp/3rdParty/Ffmpeg/bin/x64/libavformat.a"; sourceTree = "<absolute>"; };
+		4906BB0612815ED300D06846 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = "/Users/marc/Z-Repo/SVN/MATLAB/Util/VideoUtils/Cpp/3rdParty/Ffmpeg/bin/x64/libavutil.a"; sourceTree = "<absolute>"; };
+		4906BB0812815ED300D06846 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = "/Users/marc/Z-Repo/SVN/MATLAB/Util/VideoUtils/Cpp/3rdParty/Ffmpeg/bin/x64/libswscale.a"; sourceTree = "<absolute>"; };
+		4906BB1A12815F6400D06846 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		490BD651127EC6D200499B01 /* mexVideoWriter.mexmaci64 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = mexVideoWriter.mexmaci64; path = mexVideoWriter_d.mexmaci64; sourceTree = BUILT_PRODUCTS_DIR; };
+		499F60C2127ED50F004C16AC /* mexVideoWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mexVideoWriter.cpp; sourceTree = "<group>"; };
+		499F60C3127ED50F004C16AC /* mexVideoWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mexVideoWriter.h; sourceTree = "<group>"; };
+		499F60C4127ED50F004C16AC /* VideoWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VideoWriter.cpp; sourceTree = "<group>"; };
+		499F60C5127ED50F004C16AC /* VideoWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoWriter.h; sourceTree = "<group>"; };
+		499F60C6127ED50F004C16AC /* VideoWriterDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoWriterDefinitions.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		490BD64E127EC6D200499B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4906BAFF12815EBB00D06846 /* libbz2.dylib in Frameworks */,
+				4906BB0112815ED300D06846 /* libavcodec.a in Frameworks */,
+				4906BB0312815ED300D06846 /* libavdevice.a in Frameworks */,
+				4906BB0512815ED300D06846 /* libavformat.a in Frameworks */,
+				4906BB0712815ED300D06846 /* libavutil.a in Frameworks */,
+				4906BB0912815ED300D06846 /* libswscale.a in Frameworks */,
+				4906BB1B12815F6400D06846 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		490BD645127EC6D100499B01 = {
+			isa = PBXGroup;
+			children = (
+				499F60BD127ED45C004C16AC /* lib */,
+				490BD64C127EC6D200499B01 /* Source */,
+				490BD652127EC6D200499B01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		490BD64C127EC6D200499B01 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				499F60C2127ED50F004C16AC /* mexVideoWriter.cpp */,
+				499F60C3127ED50F004C16AC /* mexVideoWriter.h */,
+				499F60C4127ED50F004C16AC /* VideoWriter.cpp */,
+				499F60C5127ED50F004C16AC /* VideoWriter.h */,
+				499F60C6127ED50F004C16AC /* VideoWriterDefinitions.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		490BD652127EC6D200499B01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				490BD651127EC6D200499B01 /* mexVideoWriter.mexmaci64 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		499F60BD127ED45C004C16AC /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				4906BB1A12815F6400D06846 /* libz.dylib */,
+				4906BAFE12815EBB00D06846 /* libbz2.dylib */,
+				4906BB0012815ED300D06846 /* libavcodec.a */,
+				4906BB0212815ED300D06846 /* libavdevice.a */,
+				4906BB0412815ED300D06846 /* libavformat.a */,
+				4906BB0612815ED300D06846 /* libavutil.a */,
+				4906BB0812815ED300D06846 /* libswscale.a */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		490BD64F127EC6D200499B01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499F60C8127ED50F004C16AC /* mexVideoWriter.h in Headers */,
+				499F60CA127ED50F004C16AC /* VideoWriter.h in Headers */,
+				499F60CB127ED50F004C16AC /* VideoWriterDefinitions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		490BD650127EC6D200499B01 /* VideoWriter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 490BD655127EC6D200499B01 /* Build configuration list for PBXNativeTarget "VideoWriter" */;
+			buildPhases = (
+				490BD64D127EC6D200499B01 /* Sources */,
+				490BD64E127EC6D200499B01 /* Frameworks */,
+				490BD64F127EC6D200499B01 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoWriter;
+			productName = VideoWriter;
+			productReference = 490BD651127EC6D200499B01 /* mexVideoWriter.mexmaci64 */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		490BD647127EC6D100499B01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Flosti Co.";
+			};
+			buildConfigurationList = 490BD64A127EC6D100499B01 /* Build configuration list for PBXProject "VideoWriter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 490BD645127EC6D100499B01;
+			productRefGroup = 490BD652127EC6D200499B01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				490BD650127EC6D200499B01 /* VideoWriter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		490BD64D127EC6D200499B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499F60C7127ED50F004C16AC /* mexVideoWriter.cpp in Sources */,
+				499F60C9127ED50F004C16AC /* VideoWriter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		490BD653127EC6D200499B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		490BD654127EC6D200499B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		490BD656127EC6D200499B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../../Bin;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = mexmaci64;
+				EXECUTABLE_PREFIX = mex;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = (
+					/Applications/MATLAB_R2010b.app/extern/include/,
+					../3rdParty/Ffmpeg/src,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					/Applications/MATLAB_R2010b.app/bin/maci64,
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../3rdParty/Ffmpeg/bin/x64\"",
+				);
+				MACH_O_TYPE = mh_bundle;
+				OTHER_LDFLAGS = (
+					"-lmex",
+					"-lmx",
+				);
+				PRODUCT_NAME = VideoWriter_d;
+			};
+			name = Debug;
+		};
+		490BD657127EC6D200499B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../../Bin/;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = mexmaci64;
+				EXECUTABLE_PREFIX = mex;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = (
+					/Applications/MATLAB_R2010b.app/extern/include/,
+					../3rdParty/Ffmpeg/src,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					/Applications/MATLAB_R2010b.app/bin/maci64,
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../3rdParty/Ffmpeg/bin/x64\"",
+				);
+				MACH_O_TYPE = mh_bundle;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lmex",
+					"-lmx",
+				);
+				PRODUCT_NAME = VideoWriter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		490BD64A127EC6D100499B01 /* Build configuration list for PBXProject "VideoWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490BD653127EC6D200499B01 /* Debug */,
+				490BD654127EC6D200499B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		490BD655127EC6D200499B01 /* Build configuration list for PBXNativeTarget "VideoWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490BD656127EC6D200499B01 /* Debug */,
+				490BD657127EC6D200499B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 490BD647127EC6D100499B01 /* Project object */;
+}

@@ -1,0 +1,7 @@
+This project is licensed under APACHE license V2, see the attached 
+APACHE-2.0.txt file.
+
+To support use in projects licensed under GPL, you may also use the 
+files under GPLv2 or GPLv3 license, see GPL-2.txt and GPL-3.txt.
+
+

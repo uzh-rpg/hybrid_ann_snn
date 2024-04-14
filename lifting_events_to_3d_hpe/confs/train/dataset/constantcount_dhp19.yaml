@@ -1,0 +1,17 @@
+# @package _group_
+cls: experimenting.dataset.core.DHP19Core
+params:
+  name: timecount_dhp19
+  base_path: /scratch/asude/constant_count_frames/dhp19_scarpellini
+  data_dir: ${dataset.params.base_path}/frames
+  joints_dir: ${dataset.params.base_path}/labels
+
+  n_classes: 33
+  test_subjects: [1, 2, 3, 4, 5]
+  movements: 
+  cams: [0,1,2,3]
+  test_cams: [1, 2]
+  n_channels: 1
+  n_joints: 13
+  partition: cross-subject
+  avg_torso_length: 500

@@ -1,0 +1,11 @@
+training:
+  epochs: 100
+  early_stopping: 10
+  batch_size: 32
+  num_workers: 12
+  load_training: false
+  module: Classifier
+  model: resnet34
+  pretrained: true
+  load_path:
+    

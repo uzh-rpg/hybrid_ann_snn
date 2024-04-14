@@ -1,0 +1,4 @@
+loss:
+  cls: torch.nn.MSELoss
+  params:
+    reduction: mean
