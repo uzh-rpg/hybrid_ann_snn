@@ -5,6 +5,18 @@ This repository implements a hybrid CNN - SNN architecture for low rate CNN pred
 
 <img src="overview.png" width="600">
 
+## Citation
+If you find this work and/or code useful, please cite our paper:
+
+```bibtex
+@InProceedings{Zubic_2024_CVPR,
+  author  = {Aydin, Asude and Gehrig, Mathias and Gehrig, Daniel and Scaramuzza, Davide},
+  title   = {A Hybrid ANN-SNN Architecture for Low-Power and Low-Latency Visual Perception},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
+  year    = {2024},
+}
+```
+
 ## Installation
 
 Create a new virtual environment and install the requirements.
