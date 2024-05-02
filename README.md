@@ -5,6 +5,9 @@ This repository implements a hybrid CNN - SNN architecture for low rate CNN pred
 
 <img src="overview.png" width="600">
 
+This is the official PyTorch implementation of the CVPRW 2024 paper [A Hybrid ANN-SNN Architecture for Low-Power and Low-Latency Visual Perception](https://arxiv.org/abs/2303.14176).
+
+
 ## Citation
 If you find this work and/or code useful, please cite our paper:
 
